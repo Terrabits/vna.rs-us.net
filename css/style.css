@@ -196,6 +196,13 @@ nav ul li:hover a {
 	float: right;
 }
 
+.doxygen-frame {
+	width: 100%;
+	border: none;
+	margin: none;
+	overflow: hidden;
+}
+
 .galleria {
 	width: 80%;
 	height: 450px;
