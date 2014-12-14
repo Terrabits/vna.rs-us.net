@@ -85,6 +85,8 @@ nav ul li#selected a {
 	text-align: left;
 }
 .contact-info {
+	margin-top: 5px;
+	margin-bottom: 5px;
 	font-family: "Courier New", Courier, sans-serif;
 	text-align: left;
 }
@@ -123,7 +125,7 @@ footer {
 
 body {
 	max-width: 1000px;
-	background-image:url('../images/micro_carbon.png');
+	background-image:url('../Images/micro_carbon.png');
 }
 
 div.page-box {
@@ -135,7 +137,7 @@ div.page-box {
 header {
 	/*height: 100px;*/
 	color: white;
-	background-image:url('../images/PCB.png');
+	background-image:url('../Images/PCB.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
