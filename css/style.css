@@ -7,10 +7,22 @@ body {
 	margin: 0;
 	font-family: Helvetica, Helvetica, sans-serif;
 }
-ul { margin: 0 }
-li { margin: 0 }
-h3 { margin: 0 }
-a { text-decoration: none }
+ul {
+	margin: 0;
+}
+li {
+	margin: 0;
+}
+h3 {
+	margin: 0;
+}
+h4 {
+	margin: 0;
+	margin-bottom: 2px;
+}
+a {
+	text-decoration: none
+}
 a.as-heading {
 	color: blue;
 }
@@ -73,12 +85,12 @@ nav ul li#selected a {
 	background-color: white;
 	padding-bottom: 10px;
 	overflow: auto;
-	text-align: center;
+	text-align: justify;
 }
 .content.single-column {
-	width: 90%;
-	padding-left: 5%;
-	padding-right: 5%;
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
 }
 .content > .sign-off {
 	font-family: "Courier New", Courier, sans-serif;
@@ -91,8 +103,29 @@ nav ul li#selected a {
 	text-align: left;
 }
 
-img.screenshot {
+h2.application {
+}
+p.description {
+	font-style: italic;
+}
+span.features ul,
+span.requirements ul,
+span.installation ul,
+span.instructions ul,
+span.downloads ul {
+	margin-top: 0;
+	margin-bottom: 16px;
+	padding-left: 20px;
+}
+span.features ul li,
+span.requirements ul li,
+span.installation ul li,
+span.instructions ul li,
+span.downloads ul li {
+	padding: 0px;
+}
 
+div.screenshot {
 	display: none;
 }
 div.carousel-frame {
@@ -189,8 +222,8 @@ nav ul li:hover a {
 }
 
 .sidebar.left-30 {
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 	float: left;
 	width: 29%;
 	min-width: 100px;
@@ -217,15 +250,14 @@ nav ul li:hover a {
 	color: blue;
 }
 
-
 .content {
 	text-align: justify;
 }
 
 .content.right-70 {
-	width: 60%;
-	padding-left: 5%;
-	padding-right: 5%;
+	width: 65%;
+	margin-left: 1.5%;
+	margin-right: 3.5%;
 	float: right;
 	overflow: hidden;
 }
@@ -237,14 +269,17 @@ nav ul li:hover a {
 	overflow: hidden;
 }
 
-img.screenshot {
+div.screenshot {
 	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+div.screenshot img {
+	width: 98%;
 	border: 1px;
 	border-style: solid;
 	border-color: gray;
 	box-shadow: 3px 3px 3px gray;
-	display: inline-block;
-
 }
 
 ul.screenshots {
