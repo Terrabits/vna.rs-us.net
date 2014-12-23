@@ -91,20 +91,24 @@ nav ul li#selected a {
 	text-align: left;
 }
 
+img.screenshot {
+
+	display: none;
+}
 div.carousel-frame {
 	height: 0;
 	width: 0;
-	visibility: hidden;
+	display: none;
 }
 ul.screenshots {
 	height: 0;
 	width: 0;
 	overflow: hidden;
-	visibility: hidden;
+	display: none;
 }
 ul.screenshots li {
 	overflow: hidden;
-	visibility: hidden;
+	display: none;
 }
 
 
@@ -231,6 +235,16 @@ nav ul li:hover a {
 	border: none;
 	margin: none;
 	overflow: hidden;
+}
+
+img.screenshot {
+	width: 100%;
+	border: 1px;
+	border-style: solid;
+	border-color: gray;
+	box-shadow: 3px 3px 3px gray;
+	display: inline-block;
+
 }
 
 ul.screenshots {
