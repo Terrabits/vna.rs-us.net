@@ -95,6 +95,7 @@ nav ul li#selected a {
 .content > .sign-off {
 	font-family: "Courier New", Courier, sans-serif;
 	text-align: left;
+	padding-bottom: 5px;
 }
 .contact-info {
 	margin-top: 5px;
