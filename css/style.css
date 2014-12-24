@@ -92,6 +92,11 @@ nav ul li#selected a {
 	padding-left: 2.5%;
 	padding-right: 2.5%;
 }
+.content.right-70 {
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
 .content > .sign-off {
 	font-family: "Courier New", Courier, sans-serif;
 	text-align: left;
@@ -249,10 +254,6 @@ nav ul li:hover a {
 }
 .sidebar.left-30 ul li#selected a {
 	color: blue;
-}
-
-.content {
-	text-align: justify;
 }
 
 .content.right-70 {
