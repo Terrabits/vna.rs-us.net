@@ -130,6 +130,12 @@ span.instructions ul li,
 span.downloads ul li {
 	padding: 0px;
 }
+span.note p {
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 16px;
+	padding: 0px;
+}
 
 div.screenshot {
 	display: none;
@@ -220,12 +226,12 @@ footer {
 	nav ul li#selected a {
 		color: blue;
 	}
-	nav ul li:hover {
+	/*nav ul li:hover {
 		background-color: white;
 	}
 	nav ul li:hover a {
 		color: dimgray;
-	}
+	}*/
 
 	.sidebar.left-30 {
 		background-color: white;

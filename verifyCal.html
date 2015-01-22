@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -11,9 +11,9 @@
       var listener = function() { resizeToEqualHeight('sidebar left-30', 'content right-70') };
       listener();
       window.addEventListener('resize', listener);
-  };
+    };
   </script>
-  <title>TOSM with Autocal</title>
+  <title>Verify Cal</title>
 </head>
 <body>
 <div class="page-box">
@@ -32,24 +32,23 @@
 </nav>
 
 <div class="content right-70">
-  <h2 class="application">R&amp;S TOSM with Autocal</h2>
-  <div class=screenshot>
-    <img src="Images/Autocal/Calibration.png" style="max-width: 586px; max-height: 526px;" />
+  <h2 class="application">R&amp;S Verify Cal</h2>
+  <div class="screenshot">
+    <img src="Images/VerifyCal/Verification.png" style="max-width: 566px; max-height: 489px;"/>
   </div>
-  <p class="description">This application uses a Rohde &amp; Schwarz Autocal Unit for the Open-Short-Match (OSM) standards in a manual TOSM or UOSM calibration. An external thru standard is required.</p>
+  <p class="description">R&amp;S Verify Cal verifies the accuracy of a calibration by performing measurements on known standards and comparing the result to acceptable limits*.</p>
   <span class="features">
     <h4>Features:</h4>
     <ul>
-      <li>Manual calibration with the convenience of a R&amp;S Autocal unit</li>
-      <li>Improved accuracy of a TOSM calibration</li>
+      <li>Feature #1</li>
     </ul>
   </span>
   <span class=requirements>
     <h4>Requirements:</h4>
     <ul>
       <li>Rohde &amp; Schwarz Vector Network Analyzer</li>
-      <li>Rohde &amp; Schwarz Autocal Unit</li>
-      <li>Manual thru standard</li>
+      <li>Windpws PC (Optional)</li>
+      <li>Windows XP Service Pack 2 or newer</li>
     </ul>
   </span>
   <span class="installation">
@@ -63,21 +62,23 @@
     <h4>Instructions:</h4>
     <ul>
       <li>On a ZVA:<br />
-        Press the "System Config" hard key twice, choose the "External Tools" soft key and select "TOSM with Autocal"</li>
+        Press the "System Config" hard key twice, choose the "External Tools" soft key and select "Verify Cal"</li>
       <li>On a ZNB:<br />
-        Press the "Applic(ations)" hard key, then select "TOSM with Autocal"</li>
+        Press the "Applic(ations)" hard key, then select "Verify Cal"</li>
       <li>From Windows:<br />
-        Navigate to Start-Programs-R&amp;S TOSM with Autocal</li>
+        Navigate to Start-Programs-R&amp;S Verify Cal</li>
     </ul>
   </span>
   <span class="downloads">
     <h4>Downloads:</h4>
     <ul>
-      <li><a href="https://cloud.rs-us.net/public.php?service=files&t=793bbf9786325747fa770d12b4b38201&download">Application Card</a></li>
-      <!-- v1.3 -->
-      <li><a href="https://cloud.rs-us.net/public.php?service=files&t=0a6eed590e4561c3387cf63140ae95c9&download">Installer</a></li>
+      <li><a href="https://cloud.rs-us.net/public.php?service=files&t=235dc92aeffcdb3a2cb8256ba1081f0c&download">Application Card</a></li>
+      <li><a href="https://cloud.rs-us.net/public.php?service=files&t=b83f8bde83d244acdf38b484ea20e34a&download">Installer</a></li>
       <li>Source code is available <a href="contact.html">on request</a></li>
     </ul>
+  </span>
+  <span class="note">
+    <p><b>*Important Note:</b> The magnitude of the max and min limit files is absolute, but the phase is relative to the nominal value</p>
   </span>
 </div>
 
@@ -85,9 +86,9 @@
   <ul>
     <li><a href="displayOffsets.html">Display Offsets</a></li>
     <li><a href="formatTouchstone.html">Format Touchstone File</a></li>
-    <li id="selected"><a href="autocal.html">TOSM with Autocal</a></li>
+    <li><a href="autocal.html">TOSM with Autocal</a></li>
     <li><a href="userDefinedPorts.html">User Defined Ports</a></li>
-    <li><a href="verifyCal.html">Verify Cal</a></li>
+    <li id="selected"><a href="verifyCal.html">Verify Cal</a></li>
   </ul>
 </div> <!-- /sidebar left-30 -->
 
