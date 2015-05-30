@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  {% if page.url contains "applications" %}
+  <script type="text/javascript" src="/javascript/resizeToEqualHeight.js"></script>
+  <script type="text/javascript">
+  window.onload = function() {
+    var listener = function() { resizeToEqualHeight('sidebar left-30', 'content right-70') };
+    listener();
+    window.addEventListener('resize', listener);
+    };
+  </script>
+
+  {% elsif page.url == site.sections.rsatoolbox.url %}
+  <script type="text/javascript">
+  function resizeIFrame() {
+    iframe = document.getElementsByClassName("doxygen-frame")[0];
+    var html = iframe.contentWindow.document.getElementsByTagName("html")[0];
+    iframe.height = html.scrollHeight + 10 + "px";
+  }
+  </script>
+  {% endif %}
+
+</head>

@@ -1,65 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1.0,width=device-width">
-<link rel="stylesheet" href="Css/normalize.css">
-<link rel="stylesheet" href="Css/style.css">
-<title>Welcome</title>
-</head>
-<body>
-<div class="page-box">
-<header>
-  <a href="index.html"><img src='Images/RSLogo2.svg'></a>
-  <div class="header-text">Rohde &amp; Schwarz America<br />
-  Vector Network Analyzer Software</div>
-</header>
+---
+layout: page
+title: Welcome
+---
 
-<nav>
-  <ul>
-    <li id="selected"><a href="index.html">Home</a></li>
-    <li><a href="applications.html">Applications</a></li>
-    <li><a href="rsatoolbox.html">RsaToolbox</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+<p>
+  Welcome to the Rohde &amp; Schwarz North America vector network analyzer
+  software page. This page offers VNA software applications and
+  software development tools.
+</p>
 
-<div class="content single-column">
-  <p>
-    Welcome to the Rohde &amp; Schwarz America vector network analyzer
-    software page. This page offers VNA software applications and
-    software development tools.
-  </p>
-  <p>
-    <a class="as-heading" href="applications.html">Applications</a><br />
-    Ready-to-install VNA applications are provided.
-    These utilities extend the capability and convenience of our VNAs.
-    New applications are added every few months.
-    Feedback and suggestions are welcomed.
-  </p>
-  <p>
-    <a class="as-heading" href="rsatoolbox.html">RsaToolbox</a><br />
-    Rsatoolbox is a set of tools that aim to make R&amp;S instrument
-    application development and deployment easier.
-    If you are new to R&amp;S VNA programming, or new to instrument
-    programming in general, RsaToolbox provides a simple yet powerful
-    starting point. It includes project templates, instrument classes,
-    a Windows installer utility, full documentation and more.
-  </p>
-  <p>
-    <a class="as-heading" href="contact.html">Contact</a><br />
-    For any questions or comments you may have, please see the
-    <a href="contact.html">contacts page</a>.
-  </p>
-  <div class="sign-off">Best of luck,<br />
-    <i>Rohde &amp; Schwarz America<br />
+{% for section in site.sections %}
+{% if section[1].title != "Home" %}
+<p>
+  <a class="as-heading" href="{{ section[1].url }}">{{ section[1].title }}</a><br />
+  {{ section[1].description }}
+</p>
+{% endif %}
+{% endfor %}
+
+<div class="sign-off">Best of luck,<br />
+  <i>Rohde &amp; Schwarz North America<br />
     VNA Software Development Team</i>
   </div>
-</div> <!-- /content single column -->
-
-<footer>
-  &copy; 2015 Rohde &amp; Schwarz America.
-</footer>
-</div> <!-- /page box -->
-</body>
-</html>

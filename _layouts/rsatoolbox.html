@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html domain="http://vna.rs-us.net">
+
+{% include head.html %}
+
+<body onresize="resizeIFrame()">
+  <div class="page-box">
+
+    {% include header.html %}
+    {% include navigation.html %}
+
+    <div class="content">
+
+      {{ content }}
+
+    </div>
+
+    {% include footer.html %}
+
+  </div>
+</body>
+
+</html>

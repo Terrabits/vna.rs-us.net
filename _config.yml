@@ -1,0 +1,61 @@
+# Site settings
+title: "Rohde & Schwarz VNA Software Page"
+email: nick.lalic@rsa.rohde-schwarz.com
+description: > # this means to ignore newlines until "baseurl:"
+  Applications and software development resources for
+  Rohde & Schwarz Vector Network Analyzers
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vna.rs-us.net" # the base hostname & protocol for your site
+keep_files: [rsatoolbox]
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+# Organization
+sections:
+  home:
+    title: "Home"
+    description: >
+      Applications and software development resources for
+      Rohde & Schwarz Vector Network Analyzers
+    url:   /index.html
+  applications:
+    title: "Applications"
+    description: >
+      Ready-to-install VNA applications are provided.
+      These utilities extend the capability and convenience of our VNAs.
+      New applications are added every few months.
+      Feedback and suggestions are welcomed.
+    url:   /applications/
+  rsatoolbox:
+    title: "RsaToolbox"
+    description: >
+      Rsatoolbox is a set of tools that aim to make R&amp;S instrument
+      application development and deployment easier.
+      If you are new to R&amp;S VNA programming, or new to instrument
+      programming in general, RsaToolbox provides a simple yet powerful
+      starting point. It includes project templates, instrument classes,
+      a Windows installer utility, full documentation and more.
+    url:   /rsatoolbox.html
+  contact:
+    title: "Contact"
+    description: >
+      For any questions or comments you may have, please see the
+      <a href="contact.html">contacts page</a>.
+    url:   /contact.html
+
+applications:
+  - title: "Display Offsets"
+    url:   /applications/display_offsets.html
+  - title: "Format Touchstone File"
+    url:   /applications/format_touchstone.html
+  - title: "S2P Extractor"
+    url:   /applications/s2p_extractor.html
+  - title: "TOSM with Autocal"
+    url:   /applications/autocal.html
+  - title: "User Defined Ports"
+    url:   /applications/user_defined_ports.html
+  - title: "Verify Cal"
+    url:   /applications/verify_cal.html
