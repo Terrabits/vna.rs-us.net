@@ -1,13 +1,1 @@
-function resizeToEqualHeight(resizeClass, referenceClass) {
-  var resizeObject = document.getElementsByClassName(resizeClass)[0];
-  var width = window.getComputedStyle(resizeObject).borderRightWidth;
-  if (width != "" && width != "0px") {
-    var referenceObject = document.getElementsByClassName(referenceClass)[0];
-    if (resizeObject.clientHeight < referenceObject.clientHeight) {
-      resizeObject.style.height = referenceObject.clientHeight + "px";
-    }
-  }
-  else {
-    resizeObject.style.height = "";
-  }
-}
+function resizeToEqualHeight(e,d){var a=document.getElementsByClassName(e)[0];var c=window.getComputedStyle(a).borderRightWidth;if(c!=""&&c!="0px"){var b=document.getElementsByClassName(d)[0];if(a.clientHeight<b.clientHeight){a.style.height=b.clientHeight+"px";}}else{a.style.height="";}}
