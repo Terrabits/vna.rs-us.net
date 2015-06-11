@@ -25,7 +25,6 @@ module Jekyll
     end
 
     def render_json(app, path)
-      puts "Found application: " + path
       hash = Hash.new
       hash[:name] = app.data['title']
       hash[:version] = app.data['version']
