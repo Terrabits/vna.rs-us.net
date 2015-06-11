@@ -57,6 +57,8 @@ applications:
     url:   /applications/format_touchstone.html
   - title: "S2P Extractor"
     url:   /applications/s2p_extractor.html
+  - title: "Spectrum Analyzer"
+    url:   /applications/spec_an.html
   - title: "TOSM with Autocal"
     url:   /applications/autocal.html
   - title: "User Defined Ports"
