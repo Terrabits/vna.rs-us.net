@@ -51,6 +51,8 @@ sections:
     url:   /contact.html
 
 applications:
+  - title: "Cal Unit Control"
+    url:   /applications/cal_unit_control.html
   - title: "Display Offsets"
     url:   /applications/display_offsets.html
   - title: "Format Touchstone File"
