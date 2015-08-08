@@ -1,0 +1,26 @@
+---
+layout: default
+navigation_tab: blog
+include_resize: true
+---
+
+<div class="content right-70">
+  <ul class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains page.selected_category %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3>{{ post.title }}</h3>
+        <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <br />
+        <span class="meta">
+        Categories: {{ post.categories | join: ", " }}
+        </span>
+        </a>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+{% include categories_sidebar.html %}

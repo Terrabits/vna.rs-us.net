@@ -1,0 +1,38 @@
+---
+layout: page
+navigation_tab: python
+title: Python VNA Driver
+---
+<p>
+  The python package <b>rohdeschwarz</b> provides a VNA instrument driver for python 2.7/3.
+</p>
+
+<h3>Install</h3>
+<p>
+  As you would expect, you can install <b>rohdeschwarz</b> from the command line with pip:
+  {% highlight ruby %}
+    pip install rohdeschwarz
+  {% endhighlight %}
+</p>
+
+<h3>Requirements</h3>
+<p>
+  The <b>pyvisa</b> and <b>numpy</b> python packages must be installed.
+  <br />
+  There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the <b>pyvisa</b> package is still required at the moment.
+</p>
+
+<h3>Getting Started</h3>
+<p>
+  The following code snippet will attempt to connect to an instrument via TCPIP at the address provided (in this example on the local system).
+  {% highlight python %}
+from rohdeschwarz.instruments.vna import *
+
+vna = Vna()
+vna.open('TCPIP', '127.0.0.1')
+
+#
+# Continue with vna driver...
+#
+  {% endhighlight %}
+</p>

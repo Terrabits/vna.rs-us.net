@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-  {% if page.url contains "applications" %}
+  {% if page.include_resize %}
   <script type="text/javascript">
   function resizeToEqualHeight(resizeClass, referenceClass) {
     var resizeObject = document.getElementsByClassName(resizeClass)[0];

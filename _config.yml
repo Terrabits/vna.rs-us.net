@@ -33,16 +33,24 @@ sections:
       New applications are added every few months.
       Feedback and suggestions are welcomed.
     url:   /applications/
-  rsatoolbox:
-    title: "RsaToolbox"
+  blog:
+    title: "Blog"
     description: >
-      Rsatoolbox is a set of tools that aim to make R&amp;S instrument
-      application development and deployment easier.
-      If you are new to R&amp;S VNA programming, or new to instrument
-      programming in general, RsaToolbox provides a simple yet powerful
-      starting point. It includes project templates, instrument classes,
-      a Windows installer utility, full documentation and more.
+      Answers to common programming questions
+    url:   /posts.html
+  rsatoolbox:
+    title: "C++"
+    description: >
+      Rsatoolbox is a framework written in C++ and Qt that aims to make
+      R&amp;S instrument application development and deployment easier.
+      It includes project templates, instrument classes, a Windows installer
+      utility, full documentation and more.
     url:   /rsatoolbox.html
+  python:
+    title: "Python"
+    description: >
+      Python VNA instrument driver.
+    url: /python/
   contact:
     title: "Contact"
     description: >

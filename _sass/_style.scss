@@ -8,10 +8,12 @@ body {
 	font-family: Helvetica, Helvetica, sans-serif;
 }
 ul {
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
 }
 li {
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
 }
 h3 {
 	margin: 0;
@@ -25,6 +27,11 @@ a {
 }
 a.as-heading {
 	color: blue;
+}
+
+pre {
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
@@ -83,7 +90,8 @@ nav ul li#selected a {
 
 .content {
 	background-color: white;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	overflow: auto;
 	text-align: justify;
 }
@@ -137,6 +145,34 @@ span.note p {
 	padding: 0px;
 }
 
+ul.posts {
+	list-style: none;
+	margin: 0px;
+	margin-top: 5px;
+	li {
+		margin: 0px;
+		margin-bottom: 10px;
+		a {
+			color: black;
+			span.meta {
+				color: grey;
+			}
+		}
+	}
+}
+div.post {
+	margin-top: 5px;
+	.title {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.meta {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		color: grey;
+	}
+}
+
 div.screenshot {
 	display: none;
 }
@@ -160,10 +196,10 @@ ul.screenshots li {
 footer {
 	background-color: lightgray;
 	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: dimgray;
-	font-size: 75%;
+	font-size: 85%;
 }
 
 /***************************/
@@ -178,34 +214,39 @@ footer {
 	}
 
 	div.page-box {
-		overflow:auto;
+		overflow: auto;
 		background-color: white;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
 		box-shadow: 0px 0px 10px #9999FF;
 	}
 
 	header {
-		/*height: 100px;*/
+		height: 125px;
+		line-height: 125px;
 		color: white;
+		text-align: center;
 		background-image:url('../images/PCB.png');
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-	}
-
-	header img {
-		display: inline-block;
-		vertical-align: middle;
-	}
-
-	header .header-text {
-		display: inline-block;
-		vertical-align: middle;
-		font-size: 150%;
-		font-weight: bold;
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			line-height: normal;
+			img {
+				display: inline-block;
+			}
+			.header-text {
+				display: inline-block;
+				font-size: 200%;
+				font-weight: bold;
+			}
+		}
 	}
 
 	nav {
-		padding-top: 5px;
+		padding-top: 10px;
 		text-align: left;
 	}
 	nav ul {
@@ -215,8 +256,8 @@ footer {
 		display: inline-block;
 		padding-left: 5px;
 		padding-right: 5px;
-		padding-top: 2px;
-		padding-bottom: 2px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		border-top-left-radius: 3px;
 		border-top-right-radius: 3px;
 	}
@@ -239,8 +280,8 @@ footer {
 		float: left;
 		width: 29%;
 		min-width: 100px;
-		padding-top: 16px;
-		padding-bottom: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		border-style: solid;
 		border-color: gray;
 		border-top-width: 0px;

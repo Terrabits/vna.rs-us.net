@@ -1,0 +1,20 @@
+---
+layout: posts
+navigation_tab: blog
+title: VNA Programming Blog
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">
+      <h3>{{ post.title }}</h3>
+      <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <br />
+      <span class="meta">
+      Categories: {{ post.categories | join: ", " }}
+      </span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

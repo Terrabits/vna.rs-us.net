@@ -45,8 +45,4 @@
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "normalize", "style";
-// @import
-//         "normalize",
-//         "style"
-// ;
+@import "normalize", "style", "syntax-highlighting";

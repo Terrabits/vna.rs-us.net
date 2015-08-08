@@ -1,9 +1,7 @@
 <nav>
   <ul>
     {% for section in site.sections %}
-    {% if page.url == section[1].url %}
-    <li id="selected"><a href="{{ section[1].url }}">{{ section[1].title }}</a></li>
-    {% elsif page.url contains "applications" and section[1].url contains "applications" %}
+    {% if page.navigation_tab == section[0] %}
     <li id="selected"><a href="{{ section[1].url }}">{{ section[1].title }}</a></li>
     {% else %}
     <li><a href="{{ section[1].url }}">{{ section[1].title }}</a></li>

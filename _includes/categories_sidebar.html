@@ -1,0 +1,15 @@
+<div class="sidebar left-30">
+  <ul class="categories-sidebar">
+    {% for category in site.categories %}
+    {% if category.first == page.selected_category %}
+    <li id="selected">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="/categories/{{ category | first }}.html">
+        {{ category | first }} ({{ category | last | size }})
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div> <!-- /sidebar left-30 -->
