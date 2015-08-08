@@ -14,7 +14,9 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
+    ffi (1.9.8-x86-mingw32)
     hitimes (1.2.2)
+    hitimes (1.2.2-x86-mingw32)
     htmlcompressor (0.1.2)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
@@ -71,7 +73,11 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   jekyll (~> 2.5)
   jekyll-minifier (~> 0.0.4)
+
+BUNDLED WITH
+   1.10.4
