@@ -34,7 +34,7 @@ All of the SCPI commands for parallel measurements can be found in the `SOURce:G
 
 Note the location in help: *Command Reference > SCPI Command Reference > SOURce Commands > SOURce:GROup*
 
-![SCPI Command Menu](/images/posts/2015-11-04-Parallel-measurements-with-the-znbt/scpi_command_menu.PNG)
+![SCPI Command Menu](/images/posts/2015-11-04-Parallel-measurements-with-the-znbt/scpi_command_menu.png)
 
 ## SCPI Commands
 
