@@ -7,32 +7,47 @@ title: Python VNA Driver
   The python package <b>rohdeschwarz</b> provides a VNA instrument driver for python 2.7/3.
 </p>
 
+<h3>Requirements</h3>
+<p>
+  The <b>pyvisa</b> and <b>numpy</b> python packages must be installed. Numpy is tricky to install because it includes python language extensions written in C that must be compiled for your specific platform. The easiest way to accommodate this is to find a precompiled version of python and numpy that work together. Download each, install python first and then install numpy. Then pip install rohdeschwarz.
+  <br />
+  There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the <b>pyvisa</b> package is still required at the moment, even if it is not used.
+</p>
+
 <h3>Install</h3>
 <p>
   As you would expect, you can install <b>rohdeschwarz</b> from the command line with pip:
+</p>
   {% highlight ruby %}
-    pip install rohdeschwarz
+    pip install --pre rohdeschwarz
   {% endhighlight %}
+<p>
+  The <i>--pre</i> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release" (beta).
 </p>
 
-<h3>Requirements</h3>
-<p>
-  The <b>pyvisa</b> and <b>numpy</b> python packages must be installed.
-  <br />
-  There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the <b>pyvisa</b> package is still required at the moment.
-</p>
+
 
 <h3>Getting Started</h3>
 <p>
-  The following code snippet will attempt to connect to an instrument via TCPIP at the address provided (in this example on the local system).
+  The following code snippet will attempt to connect to an instrument via VISA and GPIB at the address provided.
+</p>
   {% highlight python %}
-from rohdeschwarz.instruments.vna import *
+from rohdeschwarz.instruments.vna import Vna
 
 vna = Vna()
-vna.open('TCPIP', '127.0.0.1')
-
-#
-# Continue with vna driver...
-#
+vna.open('GPIB', '17')
+vna.open_log('path/to/scpi/log.txt')
   {% endhighlight %}
+
+<p>
+  Alternatively, to connect via a direct TCP socket (no VISA installation required):
 </p>
+
+    {% highlight python %}
+from rohdeschwarz.instruments.vna import Vna
+
+vna = Vna()
+vna.open_tcp('192.168.1.101')
+vna.open_log('path/to/scpi/log.txt')
+  {% endhighlight %}
+
