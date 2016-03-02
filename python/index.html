@@ -7,27 +7,45 @@ title: Python VNA Driver
   The python package <b>rohdeschwarz</b> provides a VNA instrument driver for python 2.7/3.
 </p>
 
-<h3>Requirements</h3>
+<h2>Requirements</h2>
 <p>
-  The <b>pyvisa</b> and <b>numpy</b> python packages must be installed. Numpy is tricky to install because it includes python language extensions written in C that must be compiled for your specific platform. The easiest way to accommodate this is to find a precompiled version of python and numpy that work together. Download each, install python first and then install numpy. Then pip install rohdeschwarz.
+  The pyvisa and numpy python packages must be installed. Numpy is tricky to install because it includes python language extensions written in C that must be compiled for your specific platform. For platforms that generally come with a compiler pre-installed (Linux, Mac OS X) this is not a problem.
+</p>
+<p>
+  For windows, installation can be tricky. The easiest way to accommodate this is to find a precompiled version of python and numpy that work together. Download each, install python first and then install numpy. Then install rohdeschwarz.
+</p>
+<p>
+  As of this how-to, the following Python and Numpy combinations are recommended for Windows installs. Note that also of this writing there are no precompiled 64-bit combinations.
+</p>
+<br />
+  <u>Python 2.7 x86</u>
+  <ul>
+    <li><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python2.7.exe?r=&ts=1456954670&use_mirror=iweb">Numpy 1.10.2 x86 for Python 2.7</a></li>
+    <li><a href="https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi">Python 2.7.11 x86</a></li>
+  </ul>
   <br />
-  There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the <b>pyvisa</b> package is still required at the moment, even if it is not used.
+  <u>Python 3.4 x86</u>
+  <ul>
+    <li><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python3.4.exe?r=&ts=1456956131&use_mirror=iweb">Numpy 1.10.2</a></li>
+    <li><a href="https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi">Python 3.4.4</a></li>
+  </ul>
+  <br />
+<p>
+  There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the pyvisa package is still required at the moment, even if it is not used.
 </p>
 
-<h3>Install</h3>
+<h2>Install</h2>
 <p>
-  As you would expect, you can install <b>rohdeschwarz</b> from the command line with pip:
+  As you would expect, you can install rohdeschwarz from the command line with pip:
 </p>
   {% highlight ruby %}
-    pip install --pre rohdeschwarz
+pip install --pre rohdeschwarz
   {% endhighlight %}
 <p>
-  The <i>--pre</i> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release" (beta).
+  The current version as of this writing is 0.5.1dev1 (beta); the <i>--pre</i> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
 </p>
 
-
-
-<h3>Getting Started</h3>
+<h2>Getting Started</h2>
 <p>
   The following code snippet will attempt to connect to an instrument via VISA and GPIB at the address provided.
 </p>
@@ -37,17 +55,25 @@ from rohdeschwarz.instruments.vna import Vna
 vna = Vna()
 vna.open('GPIB', '17')
 vna.open_log('path/to/scpi/log.txt')
+# ...
+vna.close_log()
+vna.close()
   {% endhighlight %}
-
 <p>
   Alternatively, to connect via a direct TCP socket (no VISA installation required):
 </p>
-
-    {% highlight python %}
+  {% highlight python %}
 from rohdeschwarz.instruments.vna import Vna
 
 vna = Vna()
 vna.open_tcp('192.168.1.101')
 vna.open_log('path/to/scpi/log.txt')
+# ...
+vna.close_log()
+vna.close()
   {% endhighlight %}
-
+<p />
+<h2> Documentation </h2>
+<p>
+  Unfortunately there is no documentation at the moment. However, <a href="https://github.com/Terrabits/rohdeschwarz">the source code is available on Github.</a> It is organized fairly well; you should be able to navigate it to find what you are looking for.
+</p>
