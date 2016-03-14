@@ -65,6 +65,8 @@ applications:
     url:   /applications/display_offsets.html
   - title: "Format Touchstone File"
     url:   /applications/format_touchstone.html
+  - title: "PA Compression Test"
+    url:   "/applications/pa_compression.html"
   - title: "S2P Extractor"
     url:   /applications/s2p_extractor.html
   - title: "Spectrum Analyzer"
