@@ -1,7 +1,0 @@
-Server Address:	srv04.rs-us.net
-Port:			7974
-User:			lalic
-
-Python simple http server:
-in v2: python -m SimpleHTTPServer <PORT>
-in v3: python -m http.server <PORT>
