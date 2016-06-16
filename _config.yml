@@ -65,6 +65,8 @@ applications:
     url:   /applications/display_offsets.html
   - title: "Format Touchstone File"
     url:   /applications/format_touchstone.html
+  - title: "Join Cal"
+    url:   /applications/join_cal.html
   - title: "PA Compression Test"
     url:   "/applications/pa_compression.html"
   - title: "S2P Extractor"
