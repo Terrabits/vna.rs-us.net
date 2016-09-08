@@ -1,1 +1,0 @@
-function resizeToEqualHeight(e,d){var a=document.getElementsByClassName(e)[0];var c=window.getComputedStyle(a).borderRightWidth;if(c!=""&&c!="0px"){var b=document.getElementsByClassName(d)[0];if(a.clientHeight<b.clientHeight){a.style.height=b.clientHeight+"px";}}else{a.style.height="";}}
