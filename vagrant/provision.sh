@@ -36,9 +36,11 @@ gem install bundler
 bundle install
 
 # Install pygments
-sudo pip install pygments
+sudo apt-get install python-pip -y
+pip install pygments
 
 # Install node.js for execjs ruby gem
-# sudo apt-get install nodejs -y
+sudo apt-get install nodejs -y
 
-
+# Install java
+sudo apt-get install default-jre -y

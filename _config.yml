@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Applications and software development resources for
   Rohde & Schwarz Vector Network Analyzers
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://vna.rs-us.net" # the base hostname & protocol for your site
+url: "https://vna.rs-us.net" # the base hostname & protocol for your site
 keep_files: [rsatoolbox]
-exclude: [Gemfile, Gemfile.lock, 'Miscellaneous info.txt']
+exclude: [Gemfile, Gemfile.lock, 'Miscellaneous info.txt', vagrant, Vagrantfile, readme.md]
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

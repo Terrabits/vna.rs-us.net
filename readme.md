@@ -5,5 +5,5 @@ This site was made with Ruby Jekyll
 Requirements:
 - Ruby 2.2.1
 - Jekyll 2.5
-- python
+- python 2.7
 - python package pygments
