@@ -41,10 +41,13 @@ configure :build do
   # activate :minify_javascript
 end
 
-data.applications.each do |key, app|
-	proxy "/applications/#{key}.html", "/applications/template.html", locals: { title: app.title, app: app }, ignore: true
+# VNA Applications
+app.data.applications.each do |key, vna_app|
+	proxy "/applications/#{key}.html", "/applications/template.html", locals: { title: vna_app.title, vna_app: vna_app }, ignore: true
+	proxy "/applications/#{key}.json", "/applications/template.json", locals: { title: vna_app.title, vna_app: vna_app }, ignore: true
 end
 
-data.applications.each do |key, app|
-	proxy "/applications/#{key}.json", "/applications/template.json", locals: { app: app }, ignore: true
+# build/.htaccess
+after_build do
+	FileUtils.copy 'source/_.htaccess', 'build/.htaccess'
 end

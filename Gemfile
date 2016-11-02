@@ -9,7 +9,7 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'tzinfo-data' if Gem.win_platform?
 
 # Middleman Gems
-gem 'middleman', '~> 3.4.0'
+gem 'middleman', '>= 4.0.0'
 
 # Pry
 gem 'pry', '~> 0.10.4'

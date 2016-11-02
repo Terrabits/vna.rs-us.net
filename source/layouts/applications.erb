@@ -3,9 +3,5 @@
 	<%= yield %>
 	</div>
 
-	<% if local_variables.include? :app %>
-		<%= partial 'partials/applications_sidebar', locals: { app: app } %>
-	<% else %>
-		<%= partial 'partials/applications_sidebar', locals: { app: nil } %>
-	<% end %>
+	<%= partial 'partials/applications_sidebar' %>
 <% end %>
