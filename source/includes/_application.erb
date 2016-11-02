@@ -1,0 +1,45 @@
+<h2 class="application">R&amp;S <%= app.title %></h2>
+<div class="screenshot">
+  <img src="<%= app.image_url %>" style="max-width: <%= app.image_max_width %>; max-height: <%= app.image_max_height %>;"/>
+</div>
+<p class="description"> <%= app.description %></p>
+<span class="features">
+  <h4>Features:</h4>
+  <ul>
+    <% app.features.each do |feature| %>
+    <li> <%= feature %></li>
+    <% end %>
+  </ul>
+</span>
+<span class=requirements>
+  <h4>Requirements:</h4>
+  <ul>
+    <% app.requirements.each do |req| %>
+    <li> <%= req %></li>
+    <% end %>
+  </ul>
+</span>
+<span class="installation">
+  <h4>Installation:</h4>
+  <ul>
+    <% app.installation.each do |step| %>
+    <li> <%= step %></li>
+    <% end %>
+  </ul>
+</span>
+<span class="instructions">
+  <h4>Instructions:</h4>
+  <ul>
+    <% app.instructions.each do |step| %>
+    <li> <%= step %></li>
+    <% end %>
+  </ul>
+</span>
+<span class="downloads">
+  <h4>Downloads:</h4>
+  <ul>
+    <li><a href="<%= app.application_card_url %>">Application Card</a></li>
+    <li><a href="<%= app.download_url %>">Installer</a></li>
+    <li>Source code is available <a href="<%= "#" %>">on request</a></li>
+  </ul>
+</span>

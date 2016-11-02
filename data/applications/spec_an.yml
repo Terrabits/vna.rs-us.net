@@ -1,0 +1,37 @@
+title: "Spectrum Analyzer" # application name
+description: >
+  The RSA Spectrum Analyzer application configures
+  the VNA to make frequency spectrum measurements.
+  This is an implementation of Rohde &amp; Schwarz
+  application note 1EZ62. When the application runs
+  it can preset the instrument, or the Spec An
+  measurement can be added to the current configuration.
+image_url: "/applications/images/spec_an/screenshot.png"
+image_max_width: "236px"
+image_max_height: "599px"
+features:
+  - "Set Start/Stop frequency or Center/Span"
+  - "Auto Bandwidth couples the measurement bandwidth to the Span"
+  - "The Reference level will not only set the display it will also adjust the internal IF gain stage to help optimize the dynamic range."
+  - "Any measurement port can be used for spectrum measurements."
+  - "Trace Averaging can be enabled."
+  - "Modify Points per IF Bandwidth"
+  - "RMS/AVG detector available on ZVA"
+requirements:
+  - "Rohde &amp; Schwarz Vector Network Analyzer:<br>ZVA, ZVB or ZNB"
+  - "Windows XP Service Pack 2 or newer"
+installation:
+  - "Upload the installer to the instrument"
+  - "Run the installer, following the on-screen instructions"
+instructions:
+  - "On a ZVA:<br />Press the \"System Config\" hard key twice, choose the \"External Tools\" soft key and select \"Spec An\""
+  - "On a ZNB:<br />Press the \"Applic(ations)\" hard key, then select \"Spec An\""
+  - "From Windows:<br />Navigate to Start-Programs-R&amp;S Spec An-R&amp;S Spec An App"
+application_card_url: "https://cloud.rs-us.net/public.php?service=files&t=fb553c0bdde5fe9aed81f44466234752&download"
+download_url:         "https://cloud.rs-us.net/public.php?service=files&t=dd90e08730492d26197bdbb7b9a3d1b1&download"
+version: "3.0.3"
+change_log: ""
+author: "Josh Deaton"
+author_title: "RF Applications Engineer"
+author_location: "Dallas, TX"
+author_email: "josh.deaton@rsa.rohde-schwarz.com"

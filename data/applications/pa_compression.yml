@@ -1,0 +1,31 @@
+title: "PA Compression Test" # application name
+description: >
+  Performs measurements of an
+  amplifier vs both power and frequency
+  and calculates the compression point.
+image_url: "/applications/images/pa_compression/settings.png"
+image_max_width: "360px"
+image_max_height: "592px"
+features:
+  - Can stop at compression
+  - Can include gain expansion in compression
+  - RF Off post-measurment
+  - Works with pulsed RF power
+  - Calculates AMPM conversion
+  - Can plot measurement metrics vs Pout
+  - Mini GUI mode for convenience
+  - Exports results to CSV and Touchstone file formats
+requirements:
+  - "Rohde &amp; Schwarz Vector Network Analyzer"
+  - "Windows XP Service Pack 2 or newer"
+installation:
+  - "Upload the installer to the instrument"
+  - "Run the installer, following the on-screen instructions"
+instructions:
+  - "On a ZVA:<br />Press the \"System Config\" hard key twice, choose the \"External Tools\" soft key and select \"PA Compression\""
+  - "On a ZNB:<br />Press the \"Applic(ations)\" hard key, then select \"PA Compression\""
+  - "From Windows:<br />Navigate to Start-Programs-R&amp;S PA Compression Test"
+application_card_url: "https://cloud.rs-us.net/index.php/s/E9RoPeSrBh481CG/download"
+download_url:         "https://cloud.rs-us.net/public.php?service=files&t=b042ae3c05a44fb665adf210cd555067&download"
+version: "2.1.5"
+change_log: ""

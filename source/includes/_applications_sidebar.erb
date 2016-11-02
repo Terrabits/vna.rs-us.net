@@ -1,0 +1,11 @@
+<div class="sidebar left-30">
+  <ul>
+    <% data.applications.each do |page, app| %>
+      <% if current_page.url.include? page %>
+    <li id="selected"><a href="/applications/<%= page %>.html"><%= app.title %></a></li>
+      <% else %>
+    <li><a href="/applications/<%= page %>.html"><%= app.title %></a></li>
+      <% end %>
+    <% end %>
+  </ul>
+</div> <!-- /sidebar left-30 -->

@@ -1,0 +1,13 @@
+---
+layout: default
+navigation_tab: blog
+include_resize: true
+---
+
+<% wrap_layout :default do %>
+<div class="content right-70">
+	<%= yield %>
+</div>
+
+<%= partial 'includes/categories_sidebar' %>
+<% end %>

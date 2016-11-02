@@ -1,0 +1,27 @@
+title: "Display Offsets" # application name
+description: >
+  Display Offsets is a utility for
+  Rohde &amp; Schwarz Vector Network Analyzers
+  that displays the relevant delay offsets
+  in the title bar of each window.
+image_url: "/applications/images/display_offsets/znb_display.png"
+image_max_width: "744px"
+image_max_height: "409px"
+features:
+  - "Only the delay offsets relevant to the traces are displayed"
+  - "Zero-valued offsets are not displayed"
+  - "Offsets are displayed in engineering notation"
+requirements:
+  - "Rohde &amp; Schwarz Vector Network Analyzer"
+  - "Windows XP Service Pack 2 or newer"
+installation:
+  - "Upload the installer to the instrument"
+  - "Run the installer, following the on-screen instructions"
+instructions:
+  - "On a ZVA:<br />Press the \"System Config\" hard key twice, choose the \"External Tools\" soft key and select \"Display Offsets\""
+  - "On a ZNB:<br />Press the \"Applic(ations)\" hard key, then select \"Display Offsets\""
+  - "From Windows:<br />Navigate to Start-Programs-R&amp;S Display Offsets"
+application_card_url: "https://cloud.rs-us.net/public.php?service=files&t=265d5633aaa35bee88b20622ea380c08&download"
+download_url:         "https://cloud.rs-us.net/public.php?service=files&t=31737d3615bdec59665ee23b579ca062&download"
+version: "2.4"
+change_log: ""

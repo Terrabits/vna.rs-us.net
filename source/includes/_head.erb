@@ -1,0 +1,62 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    <% if current_page.data.title %>
+      <%= current_page.data.title %>
+    <% elsif local_variables.include? :app %>
+      <%= app.title %>
+    <% else %>
+      R&amp;S VNA Page"
+    <% end %>
+  </title>
+  <meta name="author" content="Nick Lalic">
+  <meta name="keywords" content"Network, Analyzer, VNA, RF, Rohde, Schwarz, Software">
+  <meta name="description" content="<% if current_page.data.excerpt %><%= current_page.data.excerpt %><% else %>VNA Software Page<% end %>">
+
+  <%= stylesheet_link_tag :site %>
+
+  <% if current_page.data.include_resize %>
+  <script>
+  function resizeToEqualHeight(resizeClass, referenceClass) {
+    var resizeObject = document.getElementsByClassName(resizeClass)[0];
+    var width = window.getComputedStyle(resizeObject).borderRightWidth;
+    if (width != "" && width != "0px") {
+      var referenceObject = document.getElementsByClassName(referenceClass)[0];
+      if (resizeObject.clientHeight < referenceObject.clientHeight) {
+        resizeObject.style.height = referenceObject.clientHeight + "px";
+      }
+    }
+    else {
+      resizeObject.style.height = "";
+    }
+  }
+  </script>
+  <script>
+  window.onload = function() {
+    var listener = function() { resizeToEqualHeight('sidebar left-30', 'content right-70') };
+    listener();
+    window.addEventListener('resize', listener);
+    };
+  </script>
+
+  <% elsif current_page.url.include?("rsatoolbox") %>
+  <script>
+  function resizeIFrame() {
+    iframe = document.getElementsByClassName("doxygen-frame")[0];
+    var html = iframe.contentWindow.document.getElementsByTagName("html")[0];
+    iframe.height = html.scrollHeight + 10 + "px";
+  }
+  </script>
+  <% end %>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-79525178-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>

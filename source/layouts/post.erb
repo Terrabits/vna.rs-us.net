@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<% wrap_layout :default do %>
+<div class="content single-column">
+	<div class="post">
+	  <h1 class="title">{{ page.title }}</h1>
+	  <h4 class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h4>
+	  <h4 class="meta">Categories: {{ page.categories | join: ", " }}</h4>
+
+	  <article class="content">
+	    {{ content }}
+	  </article>
+	</div>
+</div>
+<% end %>
