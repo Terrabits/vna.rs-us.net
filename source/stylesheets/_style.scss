@@ -71,7 +71,7 @@ nav ul li#selected a {
 .sidebar.left-30 {
 	background-color: darkblue;
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 .sidebar.left-30 a {
 	color: white;
@@ -79,6 +79,7 @@ nav ul li#selected a {
 }
 .sidebar.left-30 ul {
 	padding: 0px;
+	padding-left: 20px;
 	list-style-type: none;
 }
 .sidebar.left-30 ul li#selected {
@@ -154,6 +155,12 @@ nav ul li#selected a {
 }
 
 h2.application {
+	margin-bottom: 0;
+}
+h4.version {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: gray;
 }
 p.description {
 	font-style: italic;
@@ -191,7 +198,7 @@ ul.posts {
 		a {
 			color: black;
 			span.meta {
-				color: grey;
+				color: gray;
 			}
 		}
 	}
@@ -211,7 +218,7 @@ div.post {
 	.meta {
 		margin-top: 0px;
 		margin-bottom: 0px;
-		color: grey;
+		color: gray;
 	}
 }
 

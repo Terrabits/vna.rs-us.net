@@ -6,7 +6,7 @@ description: >
   application note 1EZ62. When the application runs
   it can preset the instrument, or the Spec An
   measurement can be added to the current configuration.
-image_url: "/applications/images/spec_an/screenshot.png"
+image_url: "/images/applications/spec_an/screenshot.png"
 image_max_width: "236px"
 image_max_height: "599px"
 features:

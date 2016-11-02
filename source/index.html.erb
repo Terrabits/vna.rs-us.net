@@ -10,15 +10,15 @@ title: Welcome
   software development tools.
 </p>
 
-{% for section in site.sections %}
-{% if section[1].title != "Home" %}
+<% data.sections.each do |name, section| %>
+	<% if section.title != "Home" %>
 <p>
-  <a class="as-heading" href="{{ section[1].url }}">{{ section[1].title }}</a><br />
-  {{ section[1].description }}
+  <a class="as-heading" href="<%= section.url %>"><%= section.title %></a><br />
+  <%= section.description %>
 </p>
-{% endif %}
-{% endfor %}
-
+	<% end %>
+<% end %>
+<br />
 <div class="sign-off">Best of luck,<br />
   <i>Rohde &amp; Schwarz North America<br />
     VNA Software Development Team</i>

@@ -5,9 +5,9 @@
 # Per-page layout changes:
 #
 # With no layout
-page '/*.xml', layout: false
+page '/*.xml',  layout: false
 page '/*.json', layout: false
-page '/*.txt', layout: false
+page '/*.txt',  layout: false
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
@@ -42,8 +42,9 @@ configure :build do
 end
 
 data.applications.each do |key, app|
-	proxy "/applications/#{key}.html", "/applications/template.html", locals: { app: app }, ignore: true
+	proxy "/applications/#{key}.html", "/applications/template.html", locals: { title: app.title, app: app }, ignore: true
 end
+
 data.applications.each do |key, app|
 	proxy "/applications/#{key}.json", "/applications/template.json", locals: { app: app }, ignore: true
 end

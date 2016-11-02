@@ -3,7 +3,7 @@ description: >
   Performs measurements of an
   amplifier vs both power and frequency
   and calculates the compression point.
-image_url: "/applications/images/pa_compression/settings.png"
+image_url: "/images/applications/pa_compression/settings.png"
 image_max_width: "360px"
 image_max_height: "592px"
 features:

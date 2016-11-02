@@ -1,17 +1,11 @@
----
-layout: default
-navigation_tab: applications
-include_resize: true
----
-
 <% wrap_layout :default do %>
 	<div class="content right-70">
 	<%= yield %>
 	</div>
 
 	<% if local_variables.include? :app %>
-		<%= partial 'includes/applications_sidebar', locals: { app: app } %>
+		<%= partial 'partials/applications_sidebar', locals: { app: app } %>
 	<% else %>
-		<%= partial 'includes/applications_sidebar', locals: { app: nil } %>
+		<%= partial 'partials/applications_sidebar', locals: { app: nil } %>
 	<% end %>
 <% end %>

@@ -4,7 +4,7 @@ description: >
   Rohde &amp; Schwarz Vector Network Analyzers
   that displays the relevant delay offsets
   in the title bar of each window.
-image_url: "/applications/images/display_offsets/znb_display.png"
+image_url: "/images/applications/display_offsets/znb_display.png"
 image_max_width: "744px"
 image_max_height: "409px"
 features:

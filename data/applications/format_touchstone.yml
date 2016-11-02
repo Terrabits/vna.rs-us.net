@@ -7,7 +7,7 @@ description: >
   correctly. Format Touchstone File can
   also be used to convert a touchstone
   file for CSV format.
-image_url: "/applications/images/format_touchstone/screenshot.png"
+image_url: "/images/applications/format_touchstone/screenshot.png"
 image_max_width: "400px"
 image_max_height: "453px"
 features:

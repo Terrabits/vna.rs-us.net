@@ -1,0 +1,27 @@
+title: "IM Spacing Sweep" # application name
+description: >
+  Perform intermod measurements vs tone distance
+  for a given center frequency
+image_url: "/images/applications/im_spacing_sweep/screenshot.png"
+image_max_width: "379px"
+image_max_height: "515px"
+features:
+  - "Calibration supported with a frequency superset"
+  - "Apply setup to specific channel"
+  - "Measurements occur as if native measurement type"
+  - Use internal or external couplers
+  - Use of external signal generators is supported
+requirements:
+  - "Rohde &amp; Schwarz Vector Network Analyzer"
+  - "Windows XP Service Pack 2 or newer"
+installation:
+  - "Upload the installer to the instrument"
+  - "Run the installer, following the on-screen instructions"
+instructions:
+  - "On a ZVA:<br />Press the \"System Config\" hard key twice, choose the \"External Tools\" soft key and select \"IM Spacing Sweep\""
+  - "On a ZNB:<br />Press the \"Applic(ations)\" hard key, choose the \"External Tools\" tab then select \"IM Spacing Sweep\""
+  - "From Windows:<br />Navigate to Start-Programs-R&amp;S IM Spacing Sweep"
+application_card_url: "https://cloud.rs-us.net/index.php/s/6FuPJKX0BrI8eym/download"
+download_url:         "https://cloud.rs-us.net/index.php/s/vFpGmIgC5QWzeIM/download"
+version: "1.3"
+change_log: ""

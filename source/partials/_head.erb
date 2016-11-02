@@ -6,10 +6,10 @@
   <title>
     <% if current_page.data.title %>
       <%= current_page.data.title %>
-    <% elsif local_variables.include? :app %>
-      <%= app.title %>
+    <% elsif current_page.metadata[:locals].include? :app %>
+      <%= current_page.metadata[:locals][:title] %>
     <% else %>
-      R&amp;S VNA Page"
+      R&amp;S VNA Page
     <% end %>
   </title>
   <meta name="author" content="Nick Lalic">

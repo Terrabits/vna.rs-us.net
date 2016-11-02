@@ -4,7 +4,7 @@ description: >
   of a calibration by performing measurements
   on known standards and comparing the result
   to acceptable limits*
-image_url: "/applications/images/verify_cal/verification.png"
+image_url: "/images/applications/verify_cal/verification.png"
 image_max_width: "566px"
 image_max_height: "489px"
 features:

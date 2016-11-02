@@ -1,7 +1,7 @@
 title: "Cal Unit Control" # application name
 description: >
   Manually control a cal unit connected to a Rohde & Schwarz VNA
-image_url: "/applications/images/cal_unit_control/screenshot.png"
+image_url: "/images/applications/cal_unit_control/screenshot.png"
 image_max_width: "468px"
 image_max_height: "395px"
 features:

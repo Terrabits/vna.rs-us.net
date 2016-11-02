@@ -1,0 +1,7 @@
+title: "C++"
+description: >
+  Rsatoolbox is a framework written in C++ and Qt that aims to make
+  R&amp;S instrument application development and deployment easier.
+  It includes project templates, instrument classes, a Windows installer
+  utility, full documentation and more.
+url:   /rsatoolbox.html
