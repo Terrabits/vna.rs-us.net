@@ -68,6 +68,8 @@ configure :build do
   # activate :minify_javascript
 end
 
+# app.data.applications.sort! { |key, value| value[:title] }
+
 # VNA Applications
 app.data.applications.each do |key, vna_app|
 	proxy "/applications/#{key}.html", "/applications/template.html", locals: { title: vna_app.title, vna_app: vna_app }, ignore: true
