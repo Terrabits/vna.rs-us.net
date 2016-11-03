@@ -16,3 +16,9 @@ gem 'pry', '~> 0.10.4'
 
 # syntax highlighting
 gem 'middleman-syntax', '~> 3.0.0'
+
+# middleman-blog
+gem "middleman-blog"
+gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+# For feed.xml.builder
+gem "builder", "~> 3.0"

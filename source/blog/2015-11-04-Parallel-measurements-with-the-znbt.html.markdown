@@ -1,9 +1,9 @@
 ---
-layout: post
-navigation_tab: blog
 title:  "Parallel Measurements with the ZNBT"
 date:   2015-11-04 15:35
-categories: ZNBT Multiport
+tags: ZNBT Multiport
+navigation_tab: blog
+include_resize: true
 ---
 
 # Summary
