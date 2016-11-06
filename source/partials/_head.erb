@@ -3,15 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>
-    <% if current_page.data.title %>
-      <%= current_page.data.title %>
-    <% elsif current_page.metadata[:locals].include? :app %>
-      <%= current_page.metadata[:locals][:title] %>
-    <% else %>
-      R&amp;S VNA Page
-    <% end %>
-  </title>
+  <%= partial 'partials/title' %>
   <meta name="author" content="Nick Lalic">
   <meta name="keywords" content"Network, Analyzer, VNA, RF, Rohde, Schwarz, Software">
   <meta name="description" content="<% if current_page.data.excerpt %><%= current_page.data.excerpt %><% else %>VNA Software Page<% end %>">
