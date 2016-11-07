@@ -1,38 +1,54 @@
-<h1 class="no-margin-top">R&amp;S <%= vna_app.title %></h1>
-<h4 class="text-muted">Version <%= vna_app.version %></h4>
+<!-- <div class="jumbotron"> -->
+  <h1 class="no-margin-top no-margin-bottom">R&amp;S <%= vna_app.title %></h1>
+  <div class="text-muted">Version <%= vna_app.version %></div>
+  <p><%= vna_app.description %></p>
+<!-- </div> -->
 <p>
-  <%= vna_app.description %>
+  <img class="margin-top extra-margin-bottom shadow img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
 </p>
-<p>
-  <img class="center shadow img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
-</p>
-<h4>Features</h4>
-<ul>
-  <% vna_app.features.each do |feature| %>
-  <li> <%= feature %></li>
-  <% end %>
-</ul>
-<h4>Requirements</h4>
-<ul>
-  <% vna_app.requirements.each do |req| %>
-  <li> <%= req %></li>
-  <% end %>
-</ul>
-<h4>Installation</h4>
-<ul>
-  <% vna_app.installation.each do |step| %>
-  <li> <%= step %></li>
-  <% end %>
-</ul>
-<h4>Instructions</h4>
-<ul>
-  <% vna_app.instructions.each do |step| %>
-  <li> <%= step %></li>
-  <% end %>
-</ul>
-<h4>Downloads</h4>
-<ul>
-  <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
-  <li><a href="<%= vna_app.download_url %>">Installer</a></li>
-  <li>Source code is available <a href="/contact.html">on request</a></li>
-</ul>
+<div class="row">
+  <div class="col-md-6">
+    <h4>Features</h4>
+    <ul class="list-right-chevron">
+      <% vna_app.features.each do |feature| %>
+      <li> <%= feature %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h4>Requirements</h4>
+    <ul class="list-right-chevron">
+      <% vna_app.requirements.each do |req| %>
+      <li> <%= req %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h4>Installation</h4>
+    <ul class="list-right-chevron">
+      <% vna_app.installation.each do |step| %>
+      <li> <%= step %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h4>Instructions</h4>
+    <ul class="list-right-chevron">
+      <% vna_app.instructions.each do |step| %>
+      <li> <%= step %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h4>Downloads</h4>
+    <ul class="list-right-chevron">
+      <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
+      <li><a href="<%= vna_app.download_url %>">Installer</a></li>
+      <li>Source code is available <a href="/contact.html">on request</a></li>
+    </ul>
+  </div>
+</div>

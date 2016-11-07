@@ -27,9 +27,22 @@ body {
 	background-color: lighten(black, 90%);
 }
 
+.margin-top {
+	margin-top: 10px;
+}
+.margin-bottom {
+	margin-bottom: 10px;
+}
+.extra-margin-bottom {
+	margin-bottom: 20px;
+}
 .no-margin-top {
 	margin-top: 0;
 }
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
 
 .no-border {
 	border: 0;
@@ -58,9 +71,13 @@ a.navbar-brand.rs-blue {
 	color: $rs-dark-blue;
 }
 
+.vertical-center {
+	display: flex;
+	align-items: center;
+}
+
 .navbar-brand {
-  display: flex;
-  align-items: center;
+  @extend .vertical-center;
   svg {
   	width: 300px;
   	display: inline-block;
@@ -74,4 +91,47 @@ img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+span.gh-ico.center {
+	@extend img.center;
+}
+
+ul.list-style-none {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.list-style-dash {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li:before {
+		content: "- ";
+	}
+}
+
+// Right chevron list from glyphicons
+ul.list-right-chevron {
+	padding-left: 17px;
+	li {
+		display: block;
+	}
+	li:before {
+		content: "\e080";
+		font-family: "Glyphicons Halflings";
+		font-size: 9px;
+		float: left;
+		margin-top: 4px;
+		margin-left: -17px;
+		color: gray;
+	}
+}
+div.blog {
+		ul {
+			@extend ul.list-right-chevron;
+		}
+}
+
+span.github-span {
+	margin: 0 10px;
 }

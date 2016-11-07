@@ -1,9 +1,8 @@
-<div class="col-md-3">
-  <ul class="list-group">
-    <li class="list-group-item active">Applications</li>
-  	<% sorted_apps = data.applications.sort_by { |key, value| value.title } %>
-    <% sorted_apps.each do |page, vna_app| %>
-      <li class="list-group-item"><a href="/applications/<%= page %>.html"><%= vna_app.title %></a></li>
-    <% end %>
-  </ul>
-</div> 
+<h3>Applications</h3>
+<ul class="list-right-chevron">
+  <!-- <li class="list-group-item active">Applications</li> -->
+	<% sorted_apps = data.applications.sort_by { |key, value| value.title } %>
+  <% sorted_apps.each do |page, vna_app| %>
+    <li><a href="/applications/<%= page %>.html"><%= vna_app.title %></a></li>
+  <% end %>
+</ul>
