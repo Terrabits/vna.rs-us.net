@@ -2,8 +2,6 @@
 title:  "ZNBT Parallel Measurements"
 date:   2015-11-04 15:35
 tags:   ZNBT, Speed
-navigation_tab: blog
-include_resize: true
 ---
 
 ### Summary

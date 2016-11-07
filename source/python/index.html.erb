@@ -4,12 +4,12 @@ title: Python VNA Driver
 ---
 <h1>Python VNA Driver</h1>
 <p>
-  The python package <b>rohdeschwarz</b> provides a VNA instrument driver for python 2.7/3.
+  The python package <code>rohdeschwarz</code> provides a VNA instrument driver for python 2.7/3.
 </p>
 
 <h2>Requirements</h2>
 <p>
-  The pyvisa and numpy python packages must be installed. Numpy is tricky to install because it includes python language extensions written in C that must be compiled for your specific platform. For platforms that generally come with a compiler pre-installed (Linux, Mac OS X) this is not a problem.
+  The <code>pyvisa</code> and <code>numpy</code> python packages must be installed. Numpy is tricky to install because it includes python language extensions written in C that must be compiled for your specific platform. For platforms that generally come with a compiler pre-installed (Linux, Mac OS X) this is not a problem.
 </p>
 <p>
   For windows, installation can be tricky. The easiest way to accommodate this is to find a precompiled version of python and numpy that work together. Download each, install python first and then install numpy. Then install rohdeschwarz.
@@ -45,12 +45,12 @@ title: Python VNA Driver
 pip install --pre rohdeschwarz
   <% end %>
 <p>
-  The current version as of this writing is 0.6.3dev1 (beta); the <i>--pre</i> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
+  The current version as of this writing is 0.6.3dev1 (beta); the <code>--pre</code> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
 </p>
 
 <h2>Getting Started</h2>
 <p>
-  The easiest way to get started is with a tcp (ethernet) connection and the <i>vna</i> command, available from the command line.
+  The easiest way to get started is with a tcp (ethernet) connection and the <code>vna</code> command, available from the command line.
 </p>
 <% code('shell') do %>
 vna --address <ip_address>

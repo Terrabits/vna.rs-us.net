@@ -1,9 +1,11 @@
-<h2 class="no-margin-top">R&amp;S <%= vna_app.title %></h2>
+<h1 class="no-margin-top">R&amp;S <%= vna_app.title %></h1>
 <h4 class="text-muted">Version <%= vna_app.version %></h4>
-<div>
-  <img class="img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
-</div>
-<p> <%= vna_app.description %></p>
+<p>
+  <%= vna_app.description %>
+</p>
+<p>
+  <img class="center shadow img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
+</p>
 <h4>Features</h4>
 <ul>
   <% vna_app.features.each do |feature| %>
