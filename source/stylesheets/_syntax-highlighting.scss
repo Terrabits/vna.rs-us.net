@@ -10,15 +10,12 @@
 
     color: white;
     font-family: "Courier New", Courier, sans-serif;
-    background: #444;
+    background: #333;
     // margin-top: 1px;
   	// margin-bottom: 1px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
     @extend %vertical-rhythm !optional;
 
     .c     { color: $comment-color; font-style: italic } // Comment

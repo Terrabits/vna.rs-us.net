@@ -1,8 +1,8 @@
 ---
 layout: default
-navigation_tab: python
 title: Python VNA Driver
 ---
+<h1>Python VNA Driver</h1>
 <p>
   The python package <b>rohdeschwarz</b> provides a VNA instrument driver for python 2.7/3.
 </p>
@@ -15,21 +15,24 @@ title: Python VNA Driver
   For windows, installation can be tricky. The easiest way to accommodate this is to find a precompiled version of python and numpy that work together. Download each, install python first and then install numpy. Then install rohdeschwarz.
 </p>
 <p>
-  As of this how-to, the following Python and Numpy combinations are recommended for Windows installs. Note that also of this writing there are no precompiled 64-bit combinations.
+  The following Python and Numpy combinations are known to work on Windows. Newer versions should work as well.
 </p>
-<br />
-  <u>Python 2.7 x86</u>
-  <ul>
-    <li><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python2.7.exe?r=&ts=1456954670&use_mirror=iweb">Numpy 1.10.2 x86 for Python 2.7</a></li>
-    <li><a href="https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi">Python 2.7.11 x86</a></li>
-  </ul>
-  <br />
-  <u>Python 3.4 x86</u>
-  <ul>
-    <li><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python3.4.exe?r=&ts=1456956131&use_mirror=iweb">Numpy 1.10.2</a></li>
-    <li><a href="https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi">Python 3.4.4</a></li>
-  </ul>
-  <br />
+<div class="row">
+  <div class="col-md-3">
+    <ul class="list-group">
+      <li class="list-group-item active">Python 2.7 x86</li>
+      <li class="list-group-item"><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python2.7.exe?r=&ts=1456954670&use_mirror=iweb">Numpy 1.10.2 x86 for Python 2.7</a></li>
+      <li class="list-group-item"><a href="https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi">Python 2.7.11 x86</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3">
+    <ul class="list-group">
+      <li class="list-group-item active">Python 3.4 x86</li>
+      <li class="list-group-item"><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python3.4.exe?r=&ts=1456956131&use_mirror=iweb">Numpy 1.10.2</a></li>
+      <li class="list-group-item"><a href="https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi">Python 3.4.4</a></li>
+    </ul>
+  </div>
+</div>
 <p>
   There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the pyvisa package is still required at the moment, even if it is not used.
 </p>
@@ -38,18 +41,30 @@ title: Python VNA Driver
 <p>
   As you would expect, you can install rohdeschwarz from the command line with pip:
 </p>
-  <% code('ruby') do %>
+  <% code('shell') do %>
 pip install --pre rohdeschwarz
   <% end %>
 <p>
-  The current version as of this writing is 0.5.1dev1 (beta); the <i>--pre</i> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
+  The current version as of this writing is 0.6.3dev1 (beta); the <i>--pre</i> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
 </p>
 
 <h2>Getting Started</h2>
 <p>
-  The following code snippet will attempt to connect to an instrument via VISA and GPIB at the address provided.
+  The easiest way to get started is with a tcp (ethernet) connection and the <i>vna</i> command, available from the command line.
 </p>
-  <% code('python') do %>
+<% code('shell') do %>
+vna --address <ip_address>
+<% end %>
+<p>
+  If you are using VISA and/or GPIB, this is available from the command line as well
+</p>
+<% code('shell') do %>
+vna --visa gpib --address <gpib_address>
+<% end %>
+<p>
+  Within a script, the following code snippet will attempt to connect to an instrument via VISA and GPIB at the address provided.
+</p>
+<% code('python') do %>
 from rohdeschwarz.instruments.vna import Vna
 
 vna = Vna()
@@ -58,7 +73,7 @@ vna.open_log('path/to/scpi/log.txt')
 # ...
 vna.close_log()
 vna.close()
-  <% end %>
+<% end %>
 <p>
   Alternatively, to connect via a direct TCP socket (no VISA installation required):
 </p>
