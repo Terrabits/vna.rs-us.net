@@ -1,46 +1,36 @@
-<h2 class="application">R&amp;S <%= vna_app.title %></h2>
-<h4 class="version">Version <%= vna_app.version %></h4>
-<div class="screenshot">
-  <img src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
+<h2 class="no-margin-top">R&amp;S <%= vna_app.title %></h2>
+<h4 class="text-muted">Version <%= vna_app.version %></h4>
+<div>
+  <img class="img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
 </div>
-<p class="description"> <%= vna_app.description %></p>
-<span class="features">
-  <h4>Features:</h4>
-  <ul>
-    <% vna_app.features.each do |feature| %>
-    <li> <%= feature %></li>
-    <% end %>
-  </ul>
-</span>
-<span class=requirements>
-  <h4>Requirements:</h4>
-  <ul>
-    <% vna_app.requirements.each do |req| %>
-    <li> <%= req %></li>
-    <% end %>
-  </ul>
-</span>
-<span class="installation">
-  <h4>Installation:</h4>
-  <ul>
-    <% vna_app.installation.each do |step| %>
-    <li> <%= step %></li>
-    <% end %>
-  </ul>
-</span>
-<span class="instructions">
-  <h4>Instructions:</h4>
-  <ul>
-    <% vna_app.instructions.each do |step| %>
-    <li> <%= step %></li>
-    <% end %>
-  </ul>
-</span>
-<span class="downloads">
-  <h4>Downloads:</h4>
-  <ul>
-    <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
-    <li><a href="<%= vna_app.download_url %>">Installer</a></li>
-    <li>Source code is available <a href="/contact.html">on request</a></li>
-  </ul>
-</span>
+<p> <%= vna_app.description %></p>
+<h4>Features</h4>
+<ul>
+  <% vna_app.features.each do |feature| %>
+  <li> <%= feature %></li>
+  <% end %>
+</ul>
+<h4>Requirements</h4>
+<ul>
+  <% vna_app.requirements.each do |req| %>
+  <li> <%= req %></li>
+  <% end %>
+</ul>
+<h4>Installation</h4>
+<ul>
+  <% vna_app.installation.each do |step| %>
+  <li> <%= step %></li>
+  <% end %>
+</ul>
+<h4>Instructions</h4>
+<ul>
+  <% vna_app.instructions.each do |step| %>
+  <li> <%= step %></li>
+  <% end %>
+</ul>
+<h4>Downloads</h4>
+<ul>
+  <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
+  <li><a href="<%= vna_app.download_url %>">Installer</a></li>
+  <li>Source code is available <a href="/contact.html">on request</a></li>
+</ul>

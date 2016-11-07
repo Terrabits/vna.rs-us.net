@@ -1,12 +1,8 @@
-<div class="sidebar left-30">
-  <ul>
+<div class="col-md-3">
+  <ul class="list-group no-border no-shadow">
   	<% sorted_apps = data.applications.sort_by { |key, value| value.title } %>
     <% sorted_apps.each do |page, vna_app| %>
-      <% if current_page.url.include? page %>
-    <li id="selected"><a href="/applications/<%= page %>.html"><%= vna_app.title %></a></li>
-      <% else %>
-    <li><a href="/applications/<%= page %>.html"><%= vna_app.title %></a></li>
-      <% end %>
+      <li class="list-group-item no-border no-shadow"><a href="/applications/<%= page %>.html"><%= vna_app.title %></a></li>
     <% end %>
   </ul>
 </div> <!-- /sidebar left-30 -->

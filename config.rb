@@ -17,6 +17,8 @@ page '/*.txt',  layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+## Used in footer:
+require 'date'
 
 ###
 # Helpers

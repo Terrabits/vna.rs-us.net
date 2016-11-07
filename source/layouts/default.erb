@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html domain="http://vna.rs-us.net">
+<html domain="http://vna.rs-us.net" lang="en">
 
 <%= partial 'partials/head' %>
 
 <body>
-  <div class="page-box">
+  <%= partial 'partials/navbar' %>
 
-  	<%= partial 'partials/header' %>
-  	<%= partial 'partials/navigation' %>
-
+  <div class="container">
     <%= yield %>
-
-    <%= partial 'partials/footer' %>
-
   </div>
+
+  <%= partial 'partials/footer' %>
 </body>
 
 </html>
