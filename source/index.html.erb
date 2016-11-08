@@ -9,19 +9,8 @@ title:  Welcome
   software development tools.
 </p>
 
-<% data.sections.each do |name, section| %>
-	<% if section.title != "Home" %>
-    <h2><a href="<%= section.url %>"><%= section.title %></a></h2>
-    <p>
-      <%= section.description %>
-    </p>
-	<% end %>
-<% end %>
-
-<div class="sign-off">
-  Best of luck,<br />
-  <i>
-    Rohde &amp; Schwarz North America<br />
-    VNA Software Development Team
-  </i>
-</div>
+<%= partial 'partials/section', locals: { section: data.sections[:applications] } %>
+<%= partial 'partials/section', locals: { section: data.sections[:python      ] } %>
+<%= partial 'partials/section', locals: { section: data.sections[:rsatoolbox  ] } %>
+<%= partial 'partials/section', locals: { section: data.sections[:blog        ] } %>
+<%= partial 'partials/section', locals: { section: data.sections[:contact     ] } %>
