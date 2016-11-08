@@ -139,3 +139,7 @@ span.github-span {
 address {
 	font-family: $font-family-monospace;
 }
+
+div.blog img {
+	@extend .img-responsive;
+}
