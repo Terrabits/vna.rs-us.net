@@ -9,16 +9,12 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'tzinfo-data' if Gem.win_platform?
 
 # Middleman Gems
-gem 'middleman', '>= 4.0.0'
-
-# Pry
-gem 'pry', '~> 0.10.4'
-
-# syntax highlighting
-gem 'middleman-syntax', '~> 3.0.0'
-
-# middleman-blog
-gem "middleman-blog"
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
-# For feed.xml.builder
-gem "builder", "~> 3.0"
+gem 'middleman',             '~> 4.1.10'
+gem 'middleman-syntax',      '~> 3.0.0'
+gem 'middleman-blog',        '~> 4.0.1'
+gem 'redcarpet',             '~> 3.3', '>= 3.3.3' # Markdown
+gem "builder",               '~> 3.0' # feed.xml.builder
+gem 'middleman-sprockets',   '~> 4.1.0'
+gem 'jquery-middleman',      '~> 3.1.2'
+gem 'bootstrap-sass',        '~> 3.3.7', require: false
+gem 'middleman-minify-html', '~> 3.4.1'

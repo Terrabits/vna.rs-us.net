@@ -20,6 +20,8 @@ page '/*.txt',  layout: false
 ## Used in footer:
 require 'date'
 
+activate :sprockets
+
 ###
 # Helpers
 ###
@@ -63,11 +65,10 @@ page "blog/feed.xml", layout: false
 
 # Build-specific configuration
 configure :build do
-  # Minify CSS on build
-  # activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_html
+  activate :minify_css
+  activate :minify_javascript
+  activate :gzip
 end
 
 # app.data.applications.sort! { |key, value| value[:title] }
