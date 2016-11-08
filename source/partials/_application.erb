@@ -1,10 +1,9 @@
-<!-- <div class="jumbotron"> -->
-  <h1 class="no-margin-top no-margin-bottom">R&amp;S <%= vna_app.title %></h1>
-  <div class="text-muted">Version <%= vna_app.version %></div>
-  <p><%= vna_app.description %></p>
-<!-- </div> -->
+<div class="page-header no-margin-top">
+  <h1 class="no-margin-top">R&amp;S <%= vna_app.title %><small> Version <%= vna_app.version %> </small></h1>
+  <p class="lead"><%= vna_app.description %></p>
+</div>
 <p>
-  <img class="margin-top extra-margin-bottom shadow img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
+  <img class="margin-top extra-margin-bottom center shadow img-responsive" src="<%= vna_app.image_url %>" style="max-width: <%= vna_app.image_max_width %>; max-height: <%= vna_app.image_max_height %>;"/>
 </p>
 <div class="row">
   <div class="col-md-6">
@@ -14,18 +13,12 @@
       <li> <%= feature %></li>
       <% end %>
     </ul>
-  </div>
-  <div class="col-md-6">
     <h4>Requirements</h4>
     <ul class="list-right-chevron">
       <% vna_app.requirements.each do |req| %>
       <li> <%= req %></li>
       <% end %>
     </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-6">
     <h4>Installation</h4>
     <ul class="list-right-chevron">
       <% vna_app.installation.each do |step| %>
@@ -40,10 +33,6 @@
       <li> <%= step %></li>
       <% end %>
     </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-6">
     <h4>Downloads</h4>
     <ul class="list-right-chevron">
       <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>

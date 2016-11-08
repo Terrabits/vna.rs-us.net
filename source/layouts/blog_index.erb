@@ -1,0 +1,8 @@
+<% wrap_layout :default do %>
+<div class="blog row">
+  <%= partial 'partials/blog_sidebar' %>
+  <div class="col-md-9">
+    <%= yield %>
+  </div>
+</div>
+<% end %>

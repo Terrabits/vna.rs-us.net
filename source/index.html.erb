@@ -1,9 +1,9 @@
 ---
-layout: page
-title: Welcome
+layout: default
+title:  Welcome
 ---
 
-<p>
+<p class="lead">
   Welcome to the Rohde &amp; Schwarz North America vector network analyzer
   software page. This page offers VNA software applications and
   software development tools.
@@ -11,10 +11,10 @@ title: Welcome
 
 <% data.sections.each do |name, section| %>
 	<% if section.title != "Home" %>
-<p>
-  <a class="as-heading" href="<%= section.url %>"><%= section.title %></a><br />
-  <%= section.description %>
-</p>
+    <h2><a href="<%= section.url %>"><%= section.title %></a></h2>
+    <p>
+      <%= section.description %>
+    </p>
 	<% end %>
 <% end %>
 

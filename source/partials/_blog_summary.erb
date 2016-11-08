@@ -1,0 +1,11 @@
+<div class="page-header no-margin-top">
+  <h1 class="no-margin-top">
+    <%= link_to article.title, article %>
+    <small>
+      <%= article.date.strftime('%b %e, %Y') %>
+    </small>
+  </h1>
+  <p class="lead">
+    <%= article.data.lead_text %><%= link_to '...more', article %>
+  </p>
+</div>

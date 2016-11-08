@@ -1,12 +1,11 @@
-<% if current_page.data.include? :title %>
-<h2 class="title"><%= current_page.data.title %></h2>
-<% end %>
-<% if current_page.data.include? :date %>
-<h4 class="date">
-  <% if current_page.data.date.class == Date %>
-  <%= current_page.data.date.strftime('%b %e') %>
-  <% else %>
-  <%= Date.parse(current_page.data.date).strftime('%b %e') %>
-  <% end %>
-</h4>
-<% end %>
+<div class="page-header no-margin-top">
+  <h1 class="no-margin-top">
+    <%= current_page.data.title %>
+    <small>
+      <%= Date.parse(current_page.data.date).strftime('%b %e, %Y') %>
+    </small>
+  </h1>
+  <p class="lead">
+    <%= current_page.data.lead_text %>
+  </p>
+</div>

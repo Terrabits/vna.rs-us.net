@@ -2,12 +2,11 @@
 title:  "ZNBT Parallel Measurements"
 date:   2015-11-04 15:35
 tags:   ZNBT, Speed
+lead_text: >
+  Because a ZNBT can have up to 24 true VNA ports, it can do something that a VNA and a switch matrix cannot: measure multiple devices in parallel. The ZNBT interface makes this easy to do for identical DUTs. But what if you want to measure DUTs with a varying number of ports, or you want to set up these measurements in your own software?
 ---
 
-### Summary
-Because a ZNBT can have up to 24 true VNA ports, it can do something that a VNA and a switch matrix cannot: measure multiple devices in parallel. The ZNBT interface makes this easy to do for identical DUTs. But what if you want to measure DUTs with a varying number of ports, or you want to set up these measurements in your own software?
-
-### Example Scenario
+## Example Scenario
 For this example we will assume the following:
 
 * A ZNBT with at least 8 ports
@@ -16,7 +15,7 @@ For this example we will assume the following:
 * A device `DUT2` with 4 ports
 * Logical port indexes are the same as the physical port
 
-#### Common Gotchas
+## Common Gotchas
 Before I begin, I'd like to clarify a few things:
 
 **Parallel measurements must share the same measurement settings**  
@@ -25,7 +24,7 @@ Internally the ZNBT has a limited number of sources being used by all the physic
 **Port assignments supersede channel settings**  
 Another thing to keep in mind is that the port assignments for parallel measurement supersede any port assignments in the channel. So, if you have already created logical port assignments (for example, with balanced ports) they may get overwritten by these SCPI commands.
 
-#### SCPI Command Menu
+## SCPI Command Menu
 
 All of the SCPI commands for parallel measurements can be found in the `SOURce:GROup` command menu. Here is a screenshot of the documentation from the ZNBT help menu.
 
@@ -33,7 +32,7 @@ Note the location in help: *Command Reference > SCPI Command Reference > SOURce 
 
 ![SCPI Command Menu](/images/posts/2015-11-04-Parallel-measurements-with-the-znbt/scpi_command_menu.png)
 
-#### SCPI Commands
+## SCPI Commands
 
 In the terminology of the SCPI Command Menu, each DUT will have it's own Port `Group`. The most straightforward command for defining each group is:
 

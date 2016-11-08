@@ -133,5 +133,9 @@ div.blog {
 }
 
 span.github-span {
-	margin: 0 10px;
+	margin: 10px 0;
+}
+
+address {
+	font-family: $font-family-monospace;
 }

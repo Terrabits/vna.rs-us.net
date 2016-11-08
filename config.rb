@@ -17,17 +17,13 @@ page '/*.txt',  layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
-## Used in footer:
-require 'date'
-
+require 'date' # in footer
 activate :sprockets
+activate :syntax
 
 ###
 # Helpers
 ###
-
-# middleman-syntax gem
-activate :syntax
 
 # middleman-blog
 activate :blog do |blog|
@@ -38,7 +34,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  blog.layout = "blog_layout"
+  blog.layout = "blog"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
@@ -70,8 +66,6 @@ configure :build do
   activate :minify_javascript
   activate :gzip
 end
-
-# app.data.applications.sort! { |key, value| value[:title] }
 
 # VNA Applications
 app.data.applications.each do |key, vna_app|
