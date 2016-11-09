@@ -140,6 +140,12 @@ address {
 	font-family: $font-family-monospace;
 }
 
-div.blog img {
-	@extend .img-responsive;
+div.blog {
+	img {
+		@extend .img-responsive;
+	}
+	table {
+		@extend .table;
+		width: auto;
+	}
 }
