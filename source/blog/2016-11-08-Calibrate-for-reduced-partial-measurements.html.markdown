@@ -31,7 +31,7 @@ A system configuration window should pop up. On that window, enable the followin
 
 The end result should be:
 
-![Figure 1](Calibrate-for-reduced-partial-measurements/figure1.gif)
+![Figure 1](2016-11-08-calibrate-for-reduced-partial-measurements/figure1.gif)
 
 Now when you calibrate you are presented with an extra dialog that lets you define multiple calibrations to perform as a group. We will use this to perform (per the example) 8 one-path two-port calibrations, one for each input port.
 
@@ -44,13 +44,13 @@ To begin, start your automatic calibration as normal:
 
 You should now be presented with this unfamiliar dialog:
 
-![Figure 2](Calibrate-for-reduced-partial-measurements/figure2.gif)
+![Figure 2](2016-11-08-calibrate-for-reduced-partial-measurements/figure2.gif)
 
 This screen allows you to add multiple, independent calibrations to your calibration routine. Click the `+Add...` button to add the first one-path two-port calibration to the list.
 
 The settings should be as follows:
 
-![Figure 3](Calibrate-for-reduced-partial-measurements/figure3.gif)
+![Figure 3](2016-11-08-calibrate-for-reduced-partial-measurements/figure3.gif)
 
 The important parts are:
 
@@ -64,11 +64,11 @@ For this example, I selected all 16 ports. The source (in this case Port 1) corr
 
 Repeat this step once for each source port that you are interested in. For our example, the resulting calibration list should look like this:
 
-![Figure 4](Calibrate-for-reduced-partial-measurements/figure4.gif)
+![Figure 4](2016-11-08-calibrate-for-reduced-partial-measurements/figure4.gif)
 
 Click next. You should arrive at a screen that allows you to set the cal unit ports used for each calibration. With an 8 port cal unit attached, I get this:
 
-![Figure 5](Calibrate-for-reduced-partial-measurements/figure5.gif)
+![Figure 5](2016-11-08-calibrate-for-reduced-partial-measurements/figure5.gif)
 
 At this point you may have noticed: doing 8 one path two port calibrations generates a lot of calibration steps - for our example there are 24 calibration steps in total (8 calibrations x 3 steps each with an 8 port cal unit => 24 total steps). I have some thoughts on how to simplify this that I'll come back to at the end. For now, we perform the calibration as is. 
 

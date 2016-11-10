@@ -30,13 +30,13 @@ All of the SCPI commands for parallel measurements can be found in the `SOURce:G
 
 Note the location in help: *Command Reference > SCPI Command Reference > SOURce Commands > SOURce:GROup*
 
-![SCPI Command Menu](2015-11-04-Parallel-measurements-with-the-znbt/scpi_command_menu.png)
+![SCPI Command Menu](2015-11-04-parallel-measurements-with-the-znbt/scpi_command_menu.png)
 
 ## SCPI Commands
 
 In the terminology of the SCPI Command Menu, each DUT will have it's own Port `Group`. The most straightforward command for defining each group is:
 
-![Set Port Group](2015-11-04-Parallel-measurements-with-the-znbt/set_port_group.png)
+![Set Port Group](2015-11-04-parallel-measurements-with-the-znbt/set_port_group.png)
 
 Now we will create these port groups. I will assign `DUT1` to ports 1-3, and `DUT2` to ports 4-7.
 
