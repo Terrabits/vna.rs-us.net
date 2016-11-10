@@ -1,0 +1,30 @@
+title: "Name of Application" # (without R&S)
+description: >
+  This is a short, multi-line description of the application that will go just under the title on the page
+# Name of screenshot file
+image_url: "" 
+# The size of the screenshot, in pixels
+image_max_width: "_px"
+image_max_height: "_px" 
+features:
+  - "Feature 1"
+  - "Feature 2"
+  - "etc..."
+requirements:
+  - "Requirement 1"
+  - "Requirement 2"
+  - "etc..."
+installation:
+  - "Step 1"
+  - "Step 2"
+  - "etc..."
+instructions:
+  - "Step 1"
+  - "Step 2"
+  - "etc..."
+# I can host these things internally if need be
+application_card_url: ""
+download_url:         ""
+# Version and (optional) change log.
+version: "1.0"
+change_log: ""
