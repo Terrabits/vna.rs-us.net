@@ -1,0 +1,147 @@
+
+<svg width="840mm" height="1255mm" version="1.1" viewbox="0 0 3172.4999 4738.8587" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs4">
+    <style>
+      <![CDATA[
+      .str0 {stroke:black;stroke-width:2.96046}
+      .fil1 {fill:none}
+      .fil2 {fill:black}
+      .fil0 {fill:white}
+      .fil3 {fill:black;fill-rule:nonzero}
+      ]]>
+    </style>
+  </defs>
+  <g transform="translate(-1036.6 7909.9)">
+    <flowroot fill="#000000" font-family="sans-serif" font-size="12.5px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" xml:space="preserve">
+      <flowregion id="flowRegion4189">
+        <rect height="45.714" width="1057.1" x="-1457.1" y="-3467.6"></rect>
+      </flowregion>
+      <flowpara id="flowPara4193"></flowpara>
+    </flowroot>
+    <g transform="translate(175.59 -218.21)">
+      <rect fill="none" height="840" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="867.23" y="6306.6"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="978.88885" xml:space="preserve" y="-6835.3848">
+        <tspan font-family="Helvetica" font-size="250px" x="978.88885" y="-6835.3848">
+          <tspan x="978.88885" y="-6835.3848">
+            Programming Language,
+          </tspan>
+          <tspan dx="0" x="3732.3069" y="-6835.3848"></tspan>
+        </tspan>
+        <tspan x="978.88885" y="-6522.8848">
+          <tspan font-family="Helvetica" font-size="250px" x="978.88885" y="-6522.8848">
+            Library
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(189.63 -84.28)">
+      <rect fill="none" height="500" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="853.18" y="7319.4"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="961.42419" xml:space="preserve" y="-7508.1929">
+        <tspan x="961.42419" y="-7508.1929">
+          <tspan font-family="Helvetica" font-size="250px" x="961.42419" y="-7508.1929">
+            Application
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g id="g9839">
+      <rect fill="none" height="840" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="1042.8" y="5107"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="1141.1685" xml:space="preserve" y="-5635.6318">
+        <tspan x="1141.1685" y="-5635.6318">
+          <tspan font-family="Helvetica" font-size="250px" x="1141.1685" y="-5635.6318">
+            Hardware
+          </tspan>
+        </tspan>
+      </text>
+      <g transform="matrix(.25 0 0 .25 2875.3 -4917.9)">
+        <rect fill="none" height="1062.9" ry="62.857" stroke="#000" stroke-width="12.5" width="1228.6" x="1348.6" y="-2164.8"></rect>
+        <path d="m1778.5-1233.4v-125h-100v-100h-225v-575h1018.8v575h-225v100h-100v125h-368.75z" fill="none" stroke="#000" stroke-width="12.5"></path>
+        <g clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" transform="matrix(1.341 0 0 2.9294 1357.6 -2294.9)">
+          <path class="fil2" d="m205.91 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_184023360-3-7"></path>
+          <path class="fil2" d="m247.65 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187209800-4-9"></path>
+          <path class="fil2" d="m289.4 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187334720-5-9"></path>
+          <path class="fil2" d="m331.14 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187323248-0-3"></path>
+          <path class="fil2" d="m372.88 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187323392-0-9"></path>
+          <path class="fil2" d="m414.62 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187206040-4-9"></path>
+          <path class="fil2" d="m456.36 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187204456-0-8"></path>
+          <path class="fil2" d="m498.11 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187204600-1-1"></path>
+          <path class="fil2" d="m539.85 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187204784-0-6"></path>
+          <path class="fil2" d="m581.59 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187207368-0-4"></path>
+          <path class="fil2" d="m623.33 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187207512-0-4"></path>
+          <path class="fil2" d="m665.08 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187207656-3-7"></path>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(286.25 -2197.7)">
+      <rect fill="none" height="500" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="756.56" y="3788.2"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="864.8028" xml:space="preserve" y="-3977.0549">
+        <tspan x="864.8028" y="-3977.0549">
+          <tspan font-family="Helvetica" font-size="250px" x="864.8028" y="-3977.0549">
+            Operating System, Drivers
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g fill="#009bea" id="g5952">
+      <path d="m3366.1-5041.6-174.16 301.65a611.21 611.21 0 0 1 174.16 -25.817 611.21 611.21 0 0 1 174.05 25.619l-174.05-301.46z" id="path8282"></path>
+      <rect height="597.79" width="137.15" x="3297.5" y="-4841.8"></rect>
+      <path d="m3366.1-4082.7-174.16-301.65a611.21 611.21 0 0 0 174.16 25.817 611.21 611.21 0 0 0 174.05 -25.619l-174.05 301.46z" id="path8282-0"></path>
+    </g>
+    <g id="g5929">
+      <rect fill="none" height="840" ry="49.164" stroke="#009bea" stroke-width="12.5" width="3160" x="1042.8" y="-4017.3"></rect>
+      <text fill="#009bea" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="1190.3324" xml:space="preserve" y="-3313.4136">
+        <tspan x="1190.3324" y="-3313.4136">
+          <tspan fill="#009bea" font-family="Helvetica" font-size="250px" x="1190.3324" y="-3313.4136">
+            Instrument
+          </tspan>
+        </tspan>
+      </text>
+      <g transform="matrix(.25 0 0 -.25 2875.3 -4206.5)">
+        <rect fill="none" height="1062.9" ry="62.857" stroke="#000" stroke-width="12.5" width="1228.6" x="1348.6" y="-2164.8"></rect>
+        <path d="m1778.5-1233.4v-125h-100v-100h-225v-575h1018.8v575h-225v100h-100v125h-368.75z" fill="none" stroke="#000" stroke-width="12.5"></path>
+        <g clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" transform="matrix(1.341 0 0 2.9294 1357.6 -2294.9)">
+          <path class="fil2" d="m205.91 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_184023360-3-7-4"></path>
+          <path class="fil2" d="m247.65 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187209800-4-9-8"></path>
+          <path class="fil2" d="m289.4 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187334720-5-9-1"></path>
+          <path class="fil2" d="m331.14 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187323248-0-3-3"></path>
+          <path class="fil2" d="m372.88 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187323392-0-9-8"></path>
+          <path class="fil2" d="m414.62 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187206040-4-9-0"></path>
+          <path class="fil2" d="m456.36 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187204456-0-8-1"></path>
+          <path class="fil2" d="m498.11 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187204600-1-1-9"></path>
+          <path class="fil2" d="m539.85 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187204784-0-6-3"></path>
+          <path class="fil2" d="m581.59 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187207368-0-4-8"></path>
+          <path class="fil2" d="m623.33 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187207512-0-4-6"></path>
+          <path class="fil2" d="m665.08 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z" id="_187207656-3-7-7"></path>
+        </g>
+      </g>
+    </g>
+    <g fill="#009bea" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" word-spacing="0px">
+      <text style="line-height:125%" x="1677.6697" xml:space="preserve" y="-4656.0537">
+        <tspan x="1677.6697" y="-4656.0537">
+          <tspan fill="#009bea" font-family="Helvetica" font-size="250px" x="1677.6697" y="-4656.0537">
+            SCPI
+          </tspan>
+        </tspan>
+      </text>
+      <text style="line-height:125%" x="1679.2742" xml:space="preserve" y="-4484.3979">
+        <tspan fill="#009bea" font-family="'Courier New'" font-size="150px" x="1679.2742" y="-4484.3979">
+          <tspan x="1679.2742" y="-4484.3979">
+            Port 5025
+          </tspan>
+          <tspan dx="0" x="2488.7468" y="-4484.3979"></tspan>
+        </tspan>
+        <tspan x="1679.2742" y="-4296.8979">
+          <tspan fill="#009bea" font-family="'Courier New'" font-size="150px" x="1679.2742" y="-4296.8979">
+            Term char: '\n'
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <flowroot fill="black" font-family="sans-serif" font-size="12.5px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" xml:space="preserve">
+      <flowregion id="flowRegion6117">
+        <rect height="56.187" width="618.06" x="1397.7" y="3306.1"></rect>
+      </flowregion>
+      <flowpara id="flowPara6121"></flowpara>
+    </flowroot>
+  </g>
+</svg>

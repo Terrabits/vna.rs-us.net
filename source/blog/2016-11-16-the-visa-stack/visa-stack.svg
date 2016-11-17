@@ -1,0 +1,221 @@
+<svg width="840mm" height="1537mm" viewbox="0 0 3172.4999 5816.6075" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      <![CDATA[
+      .str0 {stroke:black;stroke-width:2.96046}
+      .fil1 {fill:none}
+      .fil2 {fill:black}
+      .fil0 {fill:white}
+      .fil3 {fill:black;fill-rule:nonzero}
+      ]]>
+    </style>
+  </defs>
+  <g transform="translate(-1036.6 7909.9)">
+    <flowroot fill="#000000" font-family="sans-serif" font-size="12.5px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" xml:space="preserve">
+      <flowregion>
+        <rect height="45.714" width="1057.1" x="-1457.1" y="-3467.6"></rect>
+      </flowregion>
+      <flowpara></flowpara>
+    </flowroot>
+    <g>
+      <rect fill="none" height="840" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="1042.8" y="4029.3"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="1141.1685" xml:space="preserve" y="-4557.8828">
+        <tspan x="1141.1685" y="-4557.8828">
+          <tspan font-family="Helvetica" font-size="250px" x="1141.1685" y="-4557.8828">
+            Hardware
+          </tspan>
+        </tspan>
+      </text>
+      <g transform="translate(2.0413e-5)">
+        <g clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.25 0 0 .25 2192.4 -3640.9)">
+          <rect class="fil0 str0" fill="#fff" fill-rule="evenodd" height="736.25" image-rendering="optimizeQuality" rx="175" ry="175" stroke="#000" stroke-width="12.5" width="3771.2" x="-1865.6" y="-2798.5"></rect>
+          <path class="fil1 str0" d="m-1194.3-2749.1h2454.2c70.539 0 108.71 57.714 84.824 128.25l-161.58 477.18c-8.2991 24.51-35.144 44.563-59.653 44.563h-2181.4c-24.509 0-51.354-20.053-59.653-44.563l-161.58-477.18c-23.886-70.54 14.284-128.25 84.824-128.25z" fill="none" image-rendering="optimizeQuality" stroke="#000" stroke-width="12.5"></path>
+          <circle class="fil1 str0" cx="-1566.9" cy="-2423.2" fill="none" image-rendering="optimizeQuality" r="146.87" stroke="#000" stroke-width="12.5"></circle>
+          <circle class="fil1 str0" cx="1604.4" cy="-2423.2" fill="none" image-rendering="optimizeQuality" r="146.87" stroke="#000" stroke-width="12.5"></circle>
+          <g fill-rule="evenodd" image-rendering="optimizeQuality" transform="matrix(4.2223 0 0 4.2223 -1871.9 -3009.2)">
+            <path class="fil2" d="m205.91 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m247.65 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m289.4 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m331.14 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m372.88 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m414.62 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m456.36 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m498.11 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m539.85 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m581.59 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m623.33 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m665.08 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+          </g>
+          <g fill-rule="evenodd" image-rendering="optimizeQuality" transform="matrix(4.2223 0 0 4.2223 -1871.9 -3009.2)">
+            <path class="fil2" d="m205.91 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m247.65 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m289.4 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m331.14 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m372.88 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m414.62 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m456.36 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m498.11 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m539.85 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m581.59 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m623.33 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m665.08 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+          </g>
+          <rect class="fil1 str0" fill="none" height="412.5" image-rendering="optimizeQuality" stroke="#000" stroke-width="12.5" width="2177.5" x="-1056.8" y="-2631.7"></rect>
+        </g>
+        <g transform="matrix(.25 0 0 .25 2875.3 -3840.1)">
+          <rect fill="none" height="1062.9" ry="62.857" stroke="#000" stroke-width="12.5" width="1228.6" x="1348.6" y="-2164.8"></rect>
+          <path d="m1778.5-1233.4v-125h-100v-100h-225v-575h1018.8v575h-225v100h-100v125h-368.75z" fill="none" stroke="#000" stroke-width="12.5"></path>
+          <g clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" transform="matrix(1.341 0 0 2.9294 1357.6 -2294.9)">
+            <path class="fil2" d="m205.91 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m247.65 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m289.4 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m331.14 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m372.88 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m414.62 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m456.36 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m498.11 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m539.85 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m581.59 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m623.33 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m665.08 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(286.25 -1119.9)">
+      <rect fill="none" height="500" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="756.56" y="3788.2"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="864.8028" xml:space="preserve" y="-3977.0549">
+        <tspan x="864.8028" y="-3977.0549">
+          <tspan font-family="Helvetica" font-size="250px" x="864.8028" y="-3977.0549">
+            Operating System, Drivers
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(175.59 -218.21)">
+      <rect fill="none" height="840" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="867.23" y="6306.6"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="978.88885" xml:space="preserve" y="-6835.3848">
+        <tspan font-family="Helvetica" font-size="250px" x="978.88885" y="-6835.3848">
+          <tspan x="978.88885" y="-6835.3848">
+            Programming Language,
+          </tspan>
+          <tspan dx="0" x="3732.3069" y="-6835.3848"></tspan>
+        </tspan>
+        <tspan x="978.88885" y="-6522.8848">
+          <tspan font-family="Helvetica" font-size="250px" x="978.88885" y="-6522.8848">
+            Library
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g>
+      <rect fill="none" height="500" ry="49.164" stroke="#009bea" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="1042.8" y="5447"></rect>
+      <text fill="#009bea" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="1151.056" xml:space="preserve" y="-5635.8501">
+        <tspan x="1151.056" y="-5635.8501">
+          <tspan fill="#009bea" font-family="Helvetica" font-size="250px" x="1151.056" y="-5635.8501">
+            VISA
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g>
+      <rect fill="none" height="500" ry="49.164" stroke="#72ceff" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="1042.8" y="5985.9"></rect>
+      <text fill="#72ceff" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="1151.0559" xml:space="preserve" y="-6174.7241">
+        <tspan x="1151.0559" y="-6174.7241">
+          <tspan fill="#72ceff" font-family="Helvetica" font-size="250px" x="1151.0559" y="-6174.7241">
+            VXI, IVI Drivers (Optional)
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g transform="translate(189.63 -84.28)">
+      <rect fill="none" height="500" ry="49.164" stroke="#000" stroke-width="12.5" transform="scale(1,-1)" width="3160" x="853.18" y="7319.4"></rect>
+      <text fill="#000000" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="961.42419" xml:space="preserve" y="-7508.1929">
+        <tspan x="961.42419" y="-7508.1929">
+          <tspan font-family="Helvetica" font-size="250px" x="961.42419" y="-7508.1929">
+            Application
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g fill="#009bea">
+      <g>
+        <path d="m2622.9-3963.9-174.16 301.65a611.21 611.21 0 0 1 174.16 -25.817 611.21 611.21 0 0 1 174.05 25.619l-174.05-301.46z"></path>
+        <rect height="597.79" width="137.15" x="2554.2" y="-3764"></rect>
+        <path d="m2622.9-3005-174.16-301.65a611.21 611.21 0 0 0 174.16 25.817 611.21 611.21 0 0 0 174.05 -25.619l-174.05 301.46z"></path>
+      </g>
+      <text font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="2905.2737" xml:space="preserve" y="-3394.9429">
+        <tspan x="2905.2737" y="-3394.9429">
+          <tspan fill="#009bea" font-family="Helvetica" font-size="250px" x="2905.2737" y="-3394.9429">
+            SCPI
+          </tspan>
+        </tspan>
+      </text>
+    </g>
+    <g>
+      <rect fill="none" height="840" ry="49.164" stroke="#009bea" stroke-width="12.5" width="3160" x="1042.8" y="-2939.6"></rect>
+      <text fill="#009bea" font-family="sans-serif" font-size="70px" letter-spacing="0px" stroke-width="1px" style="line-height:125%" word-spacing="0px" x="1190.3324" xml:space="preserve" y="-2235.6648">
+        <tspan x="1190.3324" y="-2235.6648">
+          <tspan fill="#009bea" font-family="Helvetica" font-size="250px" x="1190.3324" y="-2235.6648">
+            Instrument
+          </tspan>
+        </tspan>
+      </text>
+      <g transform="translate(-49.164)">
+        <g clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.25 0 0 -.25 2241.6 -3328)">
+          <rect class="fil0 str0" fill="#fff" fill-rule="evenodd" height="736.25" image-rendering="optimizeQuality" rx="175" ry="175" stroke="#000" stroke-width="12.5" width="3771.2" x="-1865.6" y="-2798.5"></rect>
+          <path class="fil1 str0" d="m-1194.3-2749.1h2454.2c70.539 0 108.71 57.714 84.824 128.25l-161.58 477.18c-8.2991 24.51-35.144 44.563-59.653 44.563h-2181.4c-24.509 0-51.354-20.053-59.653-44.563l-161.58-477.18c-23.886-70.54 14.284-128.25 84.824-128.25z" fill="none" image-rendering="optimizeQuality" stroke="#000" stroke-width="12.5"></path>
+          <circle class="fil1 str0" cx="-1566.9" cy="-2423.2" fill="none" image-rendering="optimizeQuality" r="146.87" stroke="#000" stroke-width="12.5"></circle>
+          <circle class="fil1 str0" cx="1604.4" cy="-2423.2" fill="none" image-rendering="optimizeQuality" r="146.87" stroke="#000" stroke-width="12.5"></circle>
+          <g fill-rule="evenodd" image-rendering="optimizeQuality" transform="matrix(4.2223 0 0 4.2223 -1871.9 -3009.2)">
+            <path class="fil2" d="m205.91 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m247.65 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m289.4 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m331.14 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m372.88 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m414.62 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m456.36 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m498.11 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m539.85 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m581.59 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m623.33 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+            <path class="fil2" d="m665.08 187.11h31.677v-28.095c0-1.5631-1.2788-2.842-2.842-2.842h-25.993c-1.5631 0-2.842 1.2788-2.842 2.842v28.095z"></path>
+          </g>
+          <g fill-rule="evenodd" image-rendering="optimizeQuality" transform="matrix(4.2223 0 0 4.2223 -1871.9 -3009.2)">
+            <path class="fil2" d="m205.91 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m247.65 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m289.4 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m331.14 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m372.88 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m414.62 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m456.36 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m498.11 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m539.85 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m581.59 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m623.33 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m665.08 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+          </g>
+          <rect class="fil1 str0" fill="none" height="412.5" image-rendering="optimizeQuality" stroke="#000" stroke-width="12.5" width="2177.5" x="-1056.8" y="-2631.7"></rect>
+        </g>
+        <g transform="matrix(.25 0 0 -.25 2924.5 -3128.7)">
+          <rect fill="none" height="1062.9" ry="62.857" stroke="#000" stroke-width="12.5" width="1228.6" x="1348.6" y="-2164.8"></rect>
+          <path d="m1778.5-1233.4v-125h-100v-100h-225v-575h1018.8v575h-225v100h-100v125h-368.75z" fill="none" stroke="#000" stroke-width="12.5"></path>
+          <g clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" transform="matrix(1.341 0 0 2.9294 1357.6 -2294.9)">
+            <path class="fil2" d="m205.91 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m247.65 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m289.4 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m331.14 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m372.88 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m414.62 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m456.36 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m498.11 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m539.85 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m581.59 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m623.33 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+            <path class="fil2" d="m665.08 89.417h31.677v28.095c0 1.5631-1.2788 2.842-2.842 2.842h-25.993c-1.5631 0-2.842-1.2788-2.842-2.842v-28.095z"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
