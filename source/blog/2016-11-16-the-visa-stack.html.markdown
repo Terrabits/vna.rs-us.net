@@ -17,3 +17,6 @@ Paragraph three.
 <img class="tall-img" alt="No VISA stack" src="/blog/2016/11/16/the-visa-stack/no-visa-stack.svg" />
 
 Paragraph four.
+
+GPIB image credit:  
+By MDragunov - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=11117515
