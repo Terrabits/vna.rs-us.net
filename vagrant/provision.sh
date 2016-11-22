@@ -37,3 +37,19 @@ bundle install
 
 # Install node.js for execjs ruby gem
 sudo apt-get install nodejs -y
+
+# Python
+# sudo apt-get install python-dev -y
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+echo "export PATH=\"/home/vagrant/.pyenv/bin:\$PATH\"" >> ~/.bash_profile
+echo "eval \"\$(pyenv init -)\"" >> ~/.bash_profile
+echo "eval \"\$(pyenv virtualenv-init -)\"" >> ~/.bash_profile
+pyenv update
+
+# scour (SVG cleanup)
+pyenv install 3.5.2
+pyenv virtualenv 3.5.2 scour
+pyenv shell scour
+pip install --upgrade pip
+pip install scour
