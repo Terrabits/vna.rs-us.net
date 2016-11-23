@@ -1,4 +1,5 @@
 ---
+published: false
 title:  "The VISA Stack"
 date:   2016-11-16 17:00
 tags:   SCPI, Programming

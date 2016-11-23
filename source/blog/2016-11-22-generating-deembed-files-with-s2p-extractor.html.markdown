@@ -1,4 +1,5 @@
 ---
+published: false
 title:  "Generating Deembed Files with S2P Extractor"
 date:   2016-11-22 15:00
 tags:   Deembedding, Fixture, Board
