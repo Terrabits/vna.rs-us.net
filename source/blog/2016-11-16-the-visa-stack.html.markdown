@@ -1,5 +1,4 @@
 ---
-published: false
 title:  "The VISA Stack"
 date:   2016-11-16 17:00
 tags:   SCPI, Programming
@@ -51,14 +50,14 @@ Rohde & Schwarz VISA
 
 The VISA standard is just that: a standard. It is up to instrument manufacturers to implement it. Below is a link to the Rohde & Schwarz implementation of VISA.
 
-(Rohde & Schwarz VISA)[https://www.rohde-schwarz.com/us/applications/r-s-visa-application-note_56280-148812.html]
+[Rohde & Schwarz VISA](https://www.rohde-schwarz.com/us/applications/r-s-visa-application-note_56280-148812.html)
 
 If you are using a Rohde & Schwarz instrument it is highly recommended, especially for on-instrument installation because of potential conflicts with the firmware. An application note is included to help you get set up with many common programming languages.
 
 Alternatives to VISA
 --------------------
 
-The problem that VISA solves no longer exist in many modern programming languages. For example, if you are using Python an ethernet connection you can take advantage of Python's standard library, which includes a TCP socket class. the Python standard library is cross-platform and simple to use. No additional software (VISA) is necessary.
+The problem that VISA solves no longer exists in many modern programming languages. For example, if you are using Python and an ethernet connection you can take advantage of Python's standard library, which includes a TCP socket class. the Python standard library is cross-platform and simple to use. No additional software (VISA) is necessary.
 
 The communications stack is simpler:
 
@@ -75,7 +74,7 @@ Whether or not you use VISA will depend largely on your needs.
 
 If you are using a VISA driver from an instrument manufacturer, that driver will most likely require VISA. You don't have a choice.
 
-Also, if you need GPIB control you are pretty much stuck with VISA. No programming languages that I know of support GPIB control in their standard library. No other third party libraries I know of support direct GPIB control. Working around VISA on your own would take considerable effort. If you want an easy and cross-platform way to control your instrument via GPIB, VISA is the way to go.
+Also, if you need GPIB control you are pretty much stuck with VISA. No programming languages that I know of support GPIB control in their standard library. No other third party libraries I know of support direct GPIB control. Working around VISA on your own would take some effort. If you want an easy and cross-platform way to control your instrument via GPIB, VISA is the way to go.
 
 If you are using ethernet and a programming language (such as standard C++) that does not provide a TCP communications library, you may consider VISA. Short of building a library for yourself, you will need a third party library. VISA is easy to use and widely supported in the test and measurement industry.
 
