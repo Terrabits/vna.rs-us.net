@@ -14,7 +14,7 @@ VISA Software Stack
 
 A typical instrument control application using VISA looks like this:
 
-<figure class="center">
+<figure>
 	<img class="tall-img" alt="VISA stack" src="/blog/2016/11/16/the-visa-stack/visa-stack.svg" />
 	<figcaption>
 		VISA instrument control stack
@@ -63,7 +63,7 @@ The problem that VISA solves no longer exists in many modern programming languag
 
 The communications stack is simpler:
 
-<figure class="center">
+<figure>
 	<img class="tall-img" alt="No VISA stack" src="/blog/2016/11/16/the-visa-stack/no-visa-stack.svg" />
 	<figcaption>Non-VISA instrument control stack
 	</figcaption>

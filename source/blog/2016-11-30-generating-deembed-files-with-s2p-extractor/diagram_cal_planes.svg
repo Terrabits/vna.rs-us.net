@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" viewBox="0 0 135.71 187.5" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g id="layer1" transform="translate(-113.24 -711.2)">
+  <text id="text3783" transform="rotate(90)" x="1133.8267" y="-337.10715" fill="#000000" font-family="Nanum Pen Script" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan3785" x="1133.8267" y="-337.10715"/></text>
+  <rect id="rect3780" transform="rotate(90)" x="711.7" y="-230.48" width="75.2" height="98.835" ry="2.1059" fill="#e2faff" stroke="#747474"/>
+  <rect id="rect3794" transform="rotate(90)" x="787.51" y="-212.45" width="11.305" height="7.7737" ry="0" stroke="#747474"/>
+  <rect id="rect3811" transform="rotate(90)" x="787.51" y="-157.45" width="11.305" height="7.7737" ry="0" stroke="#747474"/>
+  <flowRoot id="flowRoot3912" transform="matrix(0 1 -1 0 973.78 611.66)" fill="#000000" font-family="Helvetica-otf" font-size="14px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><flowRegion id="flowRegion3914"><rect id="rect3916" x="-247.81" y="-163.3" width="233.33" height="61.313"/></flowRegion><flowPara id="flowPara3918"/></flowRoot>
+  <text id="text9745" x="166.5676" y="725.23199" fill="#000000" font-family="Helvetica-otf" font-size="14px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan9747" x="166.5676" y="725.23199"><tspan id="tspan9749" x="166.5676" y="725.23199">VNA</tspan></tspan></text>
+  <text id="text9757" x="204.72629" y="783.45306" fill="#000000" font-family="Helvetica-otf" font-size="14px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan9759" x="204.72629" y="783.45306"><tspan id="tspan9761" x="204.72629" y="783.45306">2</tspan></tspan></text>
+  <g id="g3936">
+   <path id="path4872" d="m155.62 852.39v7.7742l20-3.8871z" fill="#eebc0d" stroke="#d7aa0b" stroke-width="1px"/>
+   <rect id="rect4874" transform="scale(-1)" x="-154.62" y="-860.16" width="11.305" height="7.7737" ry="0" fill="#fff" stroke="#747474"/>
+   <path id="path4876" d="m172.62 856.28h4.5162" fill="none" stroke="#d7a90b" stroke-width="1px"/>
+  </g>
+  <path id="path4268" d="m153.72 797.46c0.30108 15.614-2.8517 24.673-17.764 27.404-26.3 4.8172-25.898 31.306-8.1291 31.306" fill="none" stroke="#000" stroke-width="4"/>
+  <path id="path4902" d="m208.47 797.46c-0.30108 15.614 2.8517 24.673 17.764 27.404 26.3 4.8172 25.898 31.306 8.1291 31.306" fill="none" stroke="#000" stroke-width="4"/>
+  <flowRoot id="flowRoot4906" transform="translate(131.14 711.2)" fill="#000000" font-family="Helvetica-otf" font-size="14px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><flowRegion id="flowRegion4908"><rect id="rect4910" x="-85.506" y="175.68" width="249.29" height="57.506"/></flowRegion><flowPara id="flowPara4912"/></flowRoot>
+  <flowRoot id="flowRoot4914" transform="translate(131.14 711.2)" fill="#000000" font-family="Nanum Pen Script" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><flowRegion id="flowRegion4916"><rect id="rect4918" x="-92.431" y="195.55" width="215.87" height="43.355"/></flowRegion><flowPara id="flowPara4920">TRL</flowPara></flowRoot>
+  <text id="text9751" x="150.39963" y="783.41547" fill="#000000" font-family="Helvetica-otf" font-size="14px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan9753" x="150.39963" y="783.41547"><tspan id="tspan9755" x="150.39963" y="783.41547">1</tspan></tspan></text>
+  <g id="g3931">
+   <path id="path3142" d="m206.57 852.39v7.7742l-20-3.8871z" fill="#eebc0d" stroke="#d7aa0b" stroke-width="1px"/>
+   <rect id="rect3144" transform="scale(1,-1)" x="207.57" y="-860.16" width="11.305" height="7.7737" ry="0" fill="#fff" stroke="#747474"/>
+   <path id="path3146" d="m189.57 856.28h-4.5162" fill="none" stroke="#d7a90b" stroke-width="1px"/>
+  </g>
+  <rect id="rect4898" transform="scale(1,-1)" x="223.57" y="-860.16" width="11.305" height="7.7737" ry="0" fill="#fff" stroke="#747474"/>
+  <rect id="rect3133" transform="scale(-1)" x="-138.62" y="-860.16" width="11.305" height="7.7737" ry="0" fill="#fff" stroke="#747474"/>
+  <path id="path3925" d="m139.62 876.85v-41.152" fill="none" stroke="#00f" stroke-dasharray="1, 2"/>
+  <path id="path3927" d="m222.57 876.85v-41.152" fill="none" stroke="#00f" stroke-dasharray="1, 2"/>
+  <path id="path3929" d="m178.14 886.39v-59.156" fill="none" stroke="#f00" stroke-dasharray="1, 2"/>
+  <path id="path3943" d="m184.05 886.39v-59.156" fill="none" stroke="#f00" stroke-dasharray="1, 2"/>
+  <text id="text3945" x="124.45064" y="887.33264" fill="#0000ff" font-family="Helvetica-otf" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan3947" x="124.45064" y="887.33264" fill="#0000ff" font-size="12px">Outer</tspan></text>
+  <text id="text3949" x="166.89494" y="898.47791" fill="#ff0000" font-family="Helvetica-otf" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan3951" x="166.89494" y="898.47791" fill="#ff0000" font-size="12px">Inner</tspan></text>
+  <text id="text3959" x="207.39981" y="887.33264" fill="#0000ff" font-family="Helvetica-otf" font-size="40px" letter-spacing="0px" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan id="tspan3961" x="207.39981" y="887.33264" fill="#0000ff" font-size="12px">Outer</tspan></text>
+ </g>
+</svg>
