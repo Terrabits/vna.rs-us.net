@@ -21,7 +21,7 @@ A typical instrument control application using VISA looks like this:
 	</figcaption>
 </figure>
 
-These layers are:
+The relevant layers are:
 
 ### Application  
 Appropriately enough, this is the application that is being made, written in the programming language of choice.
@@ -31,7 +31,9 @@ A programming language provides a high-level and often-times cross-platform way 
 
 So far we have an application in mind, a programming language, a PC with an operating system, and an instrument that's connected to the PC and configured correctly.
 
-Virtual Instrument Software Architecture (VISA) is a software library that helps your application connect to and communicate with the instrument.
+### VISA
+
+Virtual Instrument Software Architecture (VISA) is a software library that helps your application connect to and communicate with the instrument. It helps you interact with everything below the `Programming Language` layer for the purposes of instrument control.
 
 Connecting to the Instrument
 ----------------------------
@@ -82,7 +84,7 @@ If you are using ethernet or wifi and have a tcp library you can use, it's up to
 
 <hr />
 <small>
-	GPIB image by MDragunov<br>
+	GPIB connector image by MDragunov<br>
 	Own work, Public Domain<br>
 	<a href="https://commons.wikimedia.org/w/index.php?curid=11117515">https://commons.wikimedia.org/w/index.php?curid=11117515</a>
 </small>
