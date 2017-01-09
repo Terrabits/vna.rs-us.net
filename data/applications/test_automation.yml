@@ -1,0 +1,35 @@
+title: "Test Automation" # (without R&S)
+description: >
+  R&S Test Automation connects to the instrument,
+  runs all sweeps and saves all relevant data
+  from your measurement setup.
+# Name of screenshot file
+image_url: "/images/applications/test_automation/screenshot.png"
+# The size of the screenshot, in pixels
+image_max_width: "1200px"
+image_max_height: "1000px"
+features:
+  - "Auto-detects channels, diagrams, traces, markers, limit lines and ports used"
+  - "Calculates skew and propagation delay as needed"
+  - "Saves touchstone files, screenshots, csv files, and json files containing all results"
+  - "Generates an html report with screenshots, marker values and limit results"
+  - "Organizes results by DUT serial number"
+  - "Can be run on- or off-instrument"
+requirements:
+  - "A Rohde & Schwarz ZNB/T Vector Network Analyzer"
+  - "A TCP connection to the instrument (for remote control)"
+  - "Windows 7 or greater"
+installation:
+  - "Download the installer to either the instrument or your PC"
+  - "Run it"
+  - "Follow the on-screen instructions"
+instructions:
+  - "Run 'R&S Test Automation' from the start menu"
+  - "Enter the IP address of the VNA (127.0.0.1 for on-VNA install)"
+  - "Enter DUT serial numbers and measure as appropriate"
+# I can host these things internally if need be
+application_card_url: "#"
+download_url:         "https://cloud.rs-us.net/index.php/s/FYN7LCwnpElo1nR/download"
+# Version and (optional) change log.
+version: "0.1"
+change_log: ""
