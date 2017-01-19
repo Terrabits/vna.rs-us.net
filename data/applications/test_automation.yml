@@ -27,6 +27,7 @@ instructions:
   - "Run 'R&S Test Automation' from the start menu"
   - "Enter the IP address of the VNA (127.0.0.1 for on-VNA install)"
   - "Enter DUT serial numbers and measure as appropriate"
+  - "Results are saved to ~/Documents/TestAutomation"
 # I can host these things internally if need be
 application_card_url: "#"
 download_url:         "https://cloud.rs-us.net/index.php/s/FYN7LCwnpElo1nR/download"
