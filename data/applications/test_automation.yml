@@ -13,7 +13,8 @@ features:
   - "Calculates skew and propagation delay as needed"
   - "Saves touchstone files, screenshots, csv files, and json files containing all results"
   - "Generates an html report with screenshots, marker values and limit results"
-  - "Organizes results by DUT serial number"
+  - "Organizes results by DUT serial number or file type"
+  - "Output file settings can be customized"
   - "Can be run on- or off-instrument"
 requirements:
   - "A Rohde & Schwarz ZNB/T Vector Network Analyzer"
@@ -27,10 +28,10 @@ instructions:
   - "Run 'R&S Test Automation' from the start menu"
   - "Enter the IP address of the VNA (127.0.0.1 for on-VNA install)"
   - "Enter DUT serial numbers and measure as appropriate"
-  - "Results are saved to ~/Documents/TestAutomation"
+  - "Results are saved to the directory provided by user in settings"
 # I can host these things internally if need be
 application_card_url: "https://github.com/Terrabits/rs-test-automation"
-download_url:         "https://cloud.rs-us.net/index.php/s/FYN7LCwnpElo1nR/download"
+download_url:         "https://cloud.rs-us.net/index.php/s/uDfN3WXHZhJ96Ch/download"
 # Version and (optional) change log.
-version: "1.0.1"
-change_log: "Added configurable save settings, including save location."
+version: "1.0.2"
+change_log: ""
