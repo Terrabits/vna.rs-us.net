@@ -54,6 +54,7 @@ pip install --pre rohdeschwarz
 </p>
 
 <h2>Getting Started</h2>
+<h4>Command line</h4>
 <p>
   The easiest way to get started is with a tcp (ethernet) connection and the <code>vna</code> command, available from the command line.
 </p>
@@ -66,6 +67,7 @@ vna --address <ip_address>
 <% code('shell') do %>
 vna --visa gpib --address <gpib_address>
 <% end %>
+<h4>Python script</h4>
 <p>
   Within a script, the following code snippet will attempt to connect to an instrument via VISA and GPIB at the address provided.
 </p>
