@@ -10,31 +10,34 @@ title:  Python VNA Driver
 </div>
 
 <h2>Requirements</h2>
+<h4>Python</h4>
 <p>
-  The <code>pyvisa</code> and <code>numpy</code> python packages must be installed. Numpy is tricky to install because it includes python language extensions written in C that must be compiled for your specific platform. For platforms that generally come with a compiler pre-installed (Linux, Mac OS X) this is not a problem.
-</p>
-<p>
-  For windows, installation can be tricky. The easiest way to accommodate this is to find a precompiled version of python and numpy that work together. Download each, install python first and then install numpy. Then install rohdeschwarz.
-</p>
-<p>
-  The following Python and Numpy combinations are known to work on Windows. Newer versions should work as well.
+  The following Python versions are known to work on Windows. Newer versions should work as well.
 </p>
 <div class="row">
   <div class="col-md-3">
     <ul class="list-group">
-      <li class="list-group-item active">Python 2.7 x86</li>
-      <li class="list-group-item"><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python2.7.exe?r=&ts=1456954670&use_mirror=iweb">Numpy 1.10.2 for 2.7</a></li>
-      <li class="list-group-item"><a href="https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi">Python 2.7.11</a></li>
+      <li class="list-group-item active">Python 2.7.13</li>
+      <li class="list-group-item"><a href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi">x86</a></li>
+      <li class="list-group-item"><a href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi">x64</a></li>
     </ul>
   </div>
   <div class="col-md-3">
     <ul class="list-group">
-      <li class="list-group-item active">Python 3.4 x86</li>
-      <li class="list-group-item"><a href="http://downloads.sourceforge.net/project/numpy/NumPy/1.10.2/numpy-1.10.2-win32-superpack-python3.4.exe?r=&ts=1456956131&use_mirror=iweb">Numpy 1.10.2 for 3.4</a></li>
-      <li class="list-group-item"><a href="https://www.python.org/ftp/python/3.4.4/python-3.4.4.msi">Python 3.4.4</a></li>
+      <li class="list-group-item active">Python 3.5.3</li>
+      <li class="list-group-item"><a href="https://www.python.org/ftp/python/3.5.3/python-3.5.3.exe">x86</a></li>
+      <li class="list-group-item"><a href="https://www.python.org/ftp/python/3.5.3/python-3.5.3-amd64.exe">x64</a></li>
     </ul>
   </div>
 </div>
+
+<h4>Packages</h4>
+<p>
+  The <code>pyvisa</code> and <code>numpy</code> python packages are required by <code>rohdeschwarz</code>. As of Python 2.7.13 and 3.5.3, a pre-compiled (binary) version of <code>numpy</code> is available and should automatically install via <code>pip</code>. If for some reason <code>numpy</code> installation fails, you may be using a version of python that does not have a pre-compiled binary wheel on PyPI. You can check for versions supported out-of-the-box here:
+</p>
+<p>
+  <a href="https://pypi.python.org/pypi/numpy">numpy binary wheels on PyPI</a>
+</p>
 <p>
   There is a direct tcp socket option if you prefer to connect to the instrument without installing VISA on the host machine. However, the pyvisa package is still required at the moment, even if it is not used.
 </p>
@@ -47,7 +50,7 @@ title:  Python VNA Driver
 pip install --pre rohdeschwarz
   <% end %>
 <p>
-  The current version as of this writing is 0.6.3dev1 (beta); the <code>--pre</code> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
+  The current version as of this writing is 0.9.1dev1 (beta); the <code>--pre</code> flag indicates that you are okay with a version of rohdeschwarz that is "pre-release".
 </p>
 
 <h2>Getting Started</h2>
@@ -90,10 +93,14 @@ vna.close_log()
 vna.close()
   <% end %>
 <p />
+
 <h2> Documentation </h2>
 <p>
-  Unfortunately there is no documentation at the moment. However, the <a href="https://github.com/Terrabits/rohdeschwarz">source code</a> is available on Github. It is organized fairly well; you should be able to navigate it to find what you are looking for.
+  <code>rohdeschwarz</code> is open-source. All the source code can be found here:
 </p>
 <p>
   <a href="https://github.com/Terrabits/rohdeschwarz">https://github.com/Terrabits/rohdeschwarz</a>
+</p>
+<p>
+  Unfortunately there is no documentation at the moment. However, <a href="https://github.com/Terrabits/rohdeschwarz/tree/master/examples">examples can be found in the repo</a> on Github.
 </p>
