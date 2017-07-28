@@ -37,6 +37,9 @@
     <ul class="list-right-chevron">
       <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
       <li><a href="<%= vna_app.download_url %>">Installer</a></li>
+      <% if vna_app.has_key? 'mac_url' %>
+        <li><a href="<%= vna_app.mac_url %>">MacOS Installer</a></li>
+      <% end %>
       <li>Source code is available <a href="/contact">on request</a></li>
     </ul>
   </div>

@@ -1,0 +1,33 @@
+title: "Calibrate Switch Matrix" # (without R&S)
+description: >
+  R&S Calibrate Switch Matrix is a utility for characterizing the switch matrix in a Rohde & Schwarz rack measurement solution.
+# Name of screenshot file
+image_url: "/images/applications/calibrate_switch_matrix/screenshot.png"
+# The size of the screenshot, in pixels
+image_max_width: "685px"
+image_max_height: "525px"
+features:
+  - "Automatically controls VNA, Switch Matrix"
+  - "Guided VNA calibration"
+  - "User-generated measurement procedures"
+  - "Generates touchstone (.s2p) files"
+requirements:
+  - "Windows 7 or newer"
+  - "MacOS 10.12.6 (Sierra) or newer"
+  - "A Rohde & Schwarz VNA"
+  - "A Rohde & Schwarz rack-based measurement system with a switch matrix"
+installation:
+  - "On windows: double-click to install and follow on-screen instructions"
+  - "On MacOS: double-click to unpack dmg, then drag application into Applications folder"
+instructions:
+  - "Start application"
+  - "Provide VNA, Switch Matrix IP addresses"
+  - "Provide custom procedure"
+  - Follow the on-screen instructions to calibrate, measure
+# I can host these things internally if need be
+application_card_url: "https://github.com/Terrabits/calibrate-switch-matrix"
+download_url:         "https://cloud.rs-us.net/index.php/s/jiW4uTaYXGA4W3L/download"
+mac_url:              "https://cloud.rs-us.net/index.php/s/om4YEcKmi2tbtKo/download"
+# Version and (optional) change log.
+version: "0.8.1"
+change_log: ""
