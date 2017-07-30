@@ -26,8 +26,8 @@ instructions:
   - Follow the on-screen instructions to calibrate, measure
 # I can host these things internally if need be
 application_card_url: "https://github.com/Terrabits/calibrate-switch-matrix"
-download_url:         "https://cloud.rs-us.net/index.php/s/jiW4uTaYXGA4W3L/download"
-mac_url:              "https://cloud.rs-us.net/index.php/s/om4YEcKmi2tbtKo/download"
+download_url:         "https://cloud.rs-us.net/index.php/s/sdzgk2Jri74TsMh/download"
+mac_url:              "https://cloud.rs-us.net/index.php/s/TzUqAvg2fhQSXUI/download"
 # Version and (optional) change log.
-version: "0.8.1"
+version: "0.8.2"
 change_log: ""
