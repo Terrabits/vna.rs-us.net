@@ -88,12 +88,46 @@ vna.close()
 from rohdeschwarz.instruments.vna import Vna
 
 vna = Vna()
-vna.open_tcp('192.168.1.101')
+vna.open_tcp('<ip_address>')
 vna.open_log('path/to/scpi/log.txt')
 # ...
 vna.close_log()
 vna.close()
   <% end %>
+<p />
+
+<h2>Generic Instrument Control</h2>
+
+<p>
+  <code>rohdeschwarz</code> can also control other types of instruments besides a VNA. For generic instrument control, similar steps can be followed, replacing the VNA references with references to <code>GenericInstrument</code> or <code>instr</code> instead.
+</p>
+
+<h4>Command line</h4>
+<% code('shell') do %>
+# TCP socket connection
+instr --address <ip_address>
+>>> # At python prompt:
+>>> instr.query('*IDN?')
+<% end %>
+
+<h4>Python script</h4>
+<% code('python') do %>
+from rohdeschwarz.instruments.genericinstrument import GenericInstrument
+
+instr = GenericInstrument()
+instr.open_tcp('<ip_address>')
+instr.open_log('path/to/scpi/log.txt')
+
+# Read/write
+instr.write('*IDN?')
+instr.read()
+
+# Query
+instr.query('*IDN?')
+
+instr.close_log()
+instr.close()
+<% end %>
 <p />
 
 <h2> Documentation </h2>
