@@ -31,7 +31,7 @@ instructions:
   - "Results are saved to the directory provided by user in settings"
 # I can host these things internally if need be
 application_card_url: "https://github.com/Terrabits/rs-test-automation"
-download_url:         "https://cloud.rs-us.net/index.php/s/uDfN3WXHZhJ96Ch/download"
+download_url:         "https://cloud.rs-us.net/index.php/s/QQD2z3ra8Efx326/download"
 # Version and (optional) change log.
-version: "1.0.2"
+version: "1.0.3"
 change_log: ""
