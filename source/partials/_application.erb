@@ -35,7 +35,9 @@
     </ul>
     <h4>Downloads</h4>
     <ul class="list-right-chevron">
-      <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
+      <% if vna_app.has_key? 'application_card_url' %>
+        <li><a href="<%= vna_app.application_card_url %>">Application Card</a></li>
+      <% end %>
       <li><a href="<%= vna_app.download_url %>">Installer</a></li>
       <% if vna_app.has_key? 'mac_url' %>
         <li><a href="<%= vna_app.mac_url %>">MacOS Installer</a></li>

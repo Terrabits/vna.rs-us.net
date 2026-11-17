@@ -24,7 +24,6 @@ instructions:
   - "On a ZVA:<br />Press the \"System Config\" hard key twice, choose the \"External Tools\" soft key and select \"Format SNP\""
   - "On a ZNB:<br />Press the \"Applic(ations)\" hard key, then select \"Format SNP\""
   - "From Windows:<br />Navigate to Start-Programs-R&amp;S Format Touchstone File"
-application_card_url: "https://cloud.rs-us.net/public.php?service=files&t=c0e9783064fb04f951cfc34ac117d01c&download"
-download_url:         "https://cloud.rs-us.net/public.php?service=files&t=892212020e9526ac4e4868f63ccc2b6c&download"
+download_url:         "https://sft.rohde-schwarz.com/?u=FrB3nzeUA&p=MApdFpngh&path=/R%26S%20Format%20Touchstone%20File%201.2.msi"
 version: "1.2"
 change_log: ""

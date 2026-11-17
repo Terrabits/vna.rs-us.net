@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -o errexit   # exit on error
+set -o pipefail  # exit on error in pipes
+set -o nounset   # exit on unset variable
+ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
+cd "$ROOT_DIR"
+
+
+# constants
+DATE="$(date +'%Y%m%d')"
+FILENAME="$DATE-vna.rs-us.net.zip"
+ZIP="/C/Users/lalic/Documents/Rohde-Schwarz/software/7zip/7zip-9.2.0-x64/7z.exe"
+
+
+# prepare build for dist
+rm -rf dist/vna.rs-us.net
+rm -rf dist/$FILENAME
+cp -r build dist/vna.rs-us.net
+
+# compress
+cd dist
+"$ZIP" a -r "$FILENAME" vna.rs-us.net
+
+# clean up
+cd "$ROOT_DIR"
+rm -rf dist/vna.rs-us.net
